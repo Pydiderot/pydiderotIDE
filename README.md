@@ -1,4 +1,4 @@
-# thonny
+# Thonny
 
 Ce repertoire contient la version de thonny utilisée par le [lycée Denis Diderot](http://www.lyc-diderot.ac-aix-marseille.fr/spip/) à Marseille.
 
