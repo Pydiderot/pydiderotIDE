@@ -8,7 +8,7 @@ thonny est un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9velopp
 Les modifications effectuées par l'équipe de math sont:
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
-- [running.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/running.py): Le dossier de travail est `%HOMESHARE%/python/`
+- [running.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/running.py#L41): Le dossier de travail est `%HOMESHARE%/python/`
 
 
 Les librairies suivantes ont étés ajoutées:
