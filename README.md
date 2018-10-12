@@ -6,15 +6,15 @@ thonny est un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9velopp
 
 ## Quoi de neuf?
 Les modifications effectuées par l'équipe de math sont:
-- customize.py: Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
-- configuration: Utilisation de l'environement python du frontend.
-- running.py: Le dossier de travail est `%HOMESHARE%/python/`
+- [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
+- [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
+- [running.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/running.py): Le dossier de travail est `%HOMESHARE%/python/`
 
 
 Les librairies suivantes ont étés ajoutées:
-- graphique:
-- lycee:
-- lycée graph:
+- [graphique]:Une version modifiée de cette [librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python). Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [lycee](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee.py):
+- [lycée graph](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee_graph.py):
 
 ## Questions fréquentes
 - **Comment télécharger et utiliser thonny?** 
