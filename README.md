@@ -12,7 +12,7 @@ Les modifications effectuées par l'équipe de math sont:
 
 
 Les librairies suivantes ont étés ajoutées:
-- [graphique]:Une version modifiée de cette [librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python). Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [graphique](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py):Une version modifiée de cette [librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python). Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
 - [lycee](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee.py):
 - [lycée graph](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee_graph.py):
 
