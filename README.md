@@ -1,6 +1,6 @@
 # Thonny
 
-Ce répertoire contient la version de thonny utilisée par les élèves et les professeurs du [lycée Denis Diderot](http://www.lyc-diderot.ac-aix-marseille.fr/spip/) à Marseille afin de travailler, entre autres, sur la partie algoritjmique et programmation.
+Ce répertoire contient la version de thonny utilisée par les élèves et les professeurs du [lycée Denis Diderot](http://www.lyc-diderot.ac-aix-marseille.fr/spip/) à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation.
 
 Le langage de programmation est python version ?.
 
