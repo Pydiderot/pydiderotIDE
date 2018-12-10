@@ -2,7 +2,7 @@
 
 Ce répertoire contient la version de thonny utilisée par les élèves et les professeurs du [lycée Denis Diderot](http://www.lyc-diderot.ac-aix-marseille.fr/spip/) à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation.
 
-Le langage de programmation est python version ?.
+Le langage de programmation est python version 3.6.4 et nous utilisons la version 2.1.17 de Thonny.
 
 thonny est un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement) python simple téléchargeable sur https://thonny.org/.
 
