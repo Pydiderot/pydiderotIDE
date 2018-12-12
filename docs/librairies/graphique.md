@@ -1,4 +1,4 @@
-# Graphique
+## Origines
 Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 
 C'est une Version légèrement modifiée de [cette librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python) écrite par Olivier Brebant en 2011 et publié par l'académie d'Aix-Marseille en 2012, sous licence MIT depuis novembre 2018.
@@ -66,12 +66,16 @@ Initialise l'object `Fenetre_graphique` et le stocke dans une variable globale `
 
 ### trace_point
 ```trace_point(x,y, couleur='black', taille=1, forme='rond')```
+
 Ajoute un point dans la fenetre graphique aux coordonees (x, y).Les parametres optionels:
+
 - `taille`: Un entier représentant la taille du point (1 par défaut).
 - `forme`: Une chaine de caractère indiquant la forme du point. Les valeurs acceptées sont `'rond'` (défaut) ou `'croix'`.
 
 ### trace_segment
 ```trace_segment(x1, y1, x2, y2, couleur='black', taille=2)```
+
 Trace un segment entre (x1, y1) et (x2, y2). Les parametres optionels:
+
 - `couleur`: Une chaine de caractère représentant la couleur du segment ('black' par défaut).
 - `taille`: un entier représentant l'épaisseur du segment (2 par défaut).
