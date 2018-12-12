@@ -1,3 +1,4 @@
+# Librairie graphique
 Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 
 C'est une Version légèrement modifiée de [cette librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python) écrite par Olivier Brebant en 2011 et publié par l'académie d'Aix-Marseille en 2012, sous licence MIT depuis novembre 2018.
