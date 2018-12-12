@@ -4,6 +4,8 @@ Ce répertoire contient la version de thonny utilisée par les élèves et les p
 
 Le langage de programmation est python version 3.6.4 et nous utilisons la version 2.1.17 de Thonny.
 
+La documentation (en cours de construction) est disponible [ici](https://thonny.readthedocs.io/).
+
 thonny est un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement) python simple téléchargeable sur https://thonny.org/.
 
 ## Quoi de neuf?
