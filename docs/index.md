@@ -1,13 +1,13 @@
-# Documentation de l'environement et IDE python du lycée Denis Diderot
+# Documentation de l'environnement de développement python du lycée Denis Diderot
 
-Ce site documente l'environement et l'IDE utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
+Ce site documente environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
 
 ## IDE
-thonny est un IDE python simple téléchargeable sur https://thonny.org/.
+thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
 ![](https://thonny.org/img/screenshot.png)
 
 ## Environnement
-Le langage de programmation est python version 3.6.4. Nous utilisons la version 2.1.17 de Thonny avec Tk 8.6.6 ~~et pygame???~~.
+Le langage de programmation est python version 3.6.4. Nous utilisons la version 2.1.17 de Thonny avec Tk 8.6.6.
 
 
 ## librairies
