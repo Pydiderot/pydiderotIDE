@@ -56,4 +56,22 @@ trace_point(5,5,couleur='blue',taille=5)
 affiche_fenetre()
 ```
 
-Par contre cela limite l'utilisation de cette librairie à une unique instance de l’objet `fenetre`. Limitation raisonnable dans un cadre pédagogique. Faux, contre exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).      
+Par contre cela limite l'utilisation de cette librairie à une unique instance de l’objet `fenetre`. Limitation raisonnable dans un cadre pédagogique. Faux, contre exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).   
+
+## Documentation
+### creer_fenetre
+```creer_fenetre(titre = "Repère mathematique", xmin=-10, xmax=10, ymin=-10, ymax=10, fond = 'white', axes = True)```
+Initialise l'object `Fenetre_graphique` et le stocke dans une variable globale `fenetre`.
+
+
+### trace_point
+```trace_point(x,y, couleur='black', taille=1, forme='rond')```
+Ajoute un point dans la fenetre graphique aux coordonees (x, y).Les parametres optionels:
+- `taille`: Un entier représentant la taille du point (1 par défaut).
+- `forme`: Une chaine de caractère indiquant la forme du point. Les valeurs acceptées sont `'rond'` (défaut) ou `'croix'`.
+
+### trace_segment
+```trace_segment(x1, y1, x2, y2, couleur='black', taille=2)```
+Trace un segment entre (x1, y1) et (x2, y2). Les parametres optionels:
+- `couleur`: Une chaine de caractère représentant la couleur du segment ('black' par défaut).
+- `taille`: un entier représentant l'épaisseur du segment (2 par défaut).
