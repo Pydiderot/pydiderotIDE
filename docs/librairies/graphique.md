@@ -64,6 +64,9 @@ Par contre cela limite l'utilisation de cette librairie à une unique instance d
 
 Initialise l'object `Fenetre_graphique` et le stocke dans une variable globale `fenetre`.
 
+### affiche_fenetre
+```affiche_fenetre()```
+Affiche la fenetre graphique crée avec `creer_fenetre`
 
 ### trace_point
 ```trace_point(x,y, couleur='black', taille=1, forme='rond')```
@@ -80,3 +83,15 @@ Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
 
 - `couleur`: Une chaine de caractère représentant la couleur du segment (`'black'` par défaut).
 - `taille`: un entier représentant l'épaisseur du segment (`2` par défaut).
+
+
+### trace_rectangle
+        
+```trace_rectangle(x1,y1,x2,y2, couleur='black', taille=2, remplissage='yellow')```     
+
+Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
+
+- `couleur`:  Une chaine de caractère représentant la couleur des bords du rectangle (`'black'` par défaut).
+- `taille`: un entier représentant l'épaisseur du segment (`2` par défaut).
+- `remplissage`: Une chaine de caractère représentant la couleur du remplissage (`'yellow'` par défaut).
+
