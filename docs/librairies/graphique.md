@@ -68,15 +68,15 @@ Initialise l'object `Fenetre_graphique` et le stocke dans une variable globale `
 ### trace_point
 ```trace_point(x,y, couleur='black', taille=1, forme='rond')```
 
-Ajoute un point dans la fenetre graphique aux coordonees (x, y).Les parametres optionels:
+Ajoute un point dans la fenetre graphique aux coordonees `(x, y)`. Les parametres optionels:
 
-- `taille`: Un entier représentant la taille du point (1 par défaut).
+- `taille`: Un entier représentant la taille du point (`1` par défaut).
 - `forme`: Une chaine de caractère indiquant la forme du point. Les valeurs acceptées sont `'rond'` (défaut) ou `'croix'`.
 
 ### trace_segment
 ```trace_segment(x1, y1, x2, y2, couleur='black', taille=2)```
 
-Trace un segment entre (x1, y1) et (x2, y2). Les parametres optionels:
+Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
 
-- `couleur`: Une chaine de caractère représentant la couleur du segment ('black' par défaut).
-- `taille`: un entier représentant l'épaisseur du segment (2 par défaut).
+- `couleur`: Une chaine de caractère représentant la couleur du segment (`'black'` par défaut).
+- `taille`: un entier représentant l'épaisseur du segment (`2` par défaut).
