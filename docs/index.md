@@ -1,5 +1,4 @@
-# Documentation de l'environnement de développement python du lycée Denis Diderot
-
+# A propos
 Ce site documente environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
 
 ## IDE
