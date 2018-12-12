@@ -61,6 +61,7 @@ Par contre cela limite l'utilisation de cette librairie à une unique instance d
 ## Documentation
 ### creer_fenetre
 ```creer_fenetre(titre = "Repère mathematique", xmin=-10, xmax=10, ymin=-10, ymax=10, fond = 'white', axes = True)```
+
 Initialise l'object `Fenetre_graphique` et le stocke dans une variable globale `fenetre`.
 
 
