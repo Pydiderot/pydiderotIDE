@@ -1,22 +1,21 @@
 # A propos
 Ce site documente l'environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
 
-## Environement
+## Environnement
 Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
 
 Le langage de programmation est python version 3.6.4. Nous utilisons la version 2.1.17 de Thonny avec Tk 8.6.6.
 ![](https://thonny.org/img/screenshot.png)
 
 
-## Instalation
+## Installation
 Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/diderot.zip). Le décomprésser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
 
 Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org) et ensuite rajouter les librairies du lycée dans votre dossier personel.
 
-Le dossier de travail est le dossier `python` qui se trouve dans votre dossier personnel. Il suffit d'y mettre un fichier `exemple.py` pour pouvoir l'importer avec la commande `from exemple import *`
+Le dossier de travail est le dossier `python` qui se trouve dans votre dossier personnel. Il suffit d'y mettre un fichier `exemple.py` pour pouvoir l'importer avec la commande `from exemple import *
 
-
-## librairies
+## Librairies
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au language de programmation afin de pouvoir cibler certains points pédagogiques.
 
 - [graphique](librairies/graphique.md): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
@@ -27,6 +26,7 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 ## Quoi de neuf?
 
 Les modifications effectuées par l'équipe de math sont:
+
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
 - [running.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/running.py#L41): Le dossier de travail est `%HOMESHARE%/python/`
