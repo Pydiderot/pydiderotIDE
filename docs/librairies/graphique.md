@@ -1,11 +1,7 @@
-## Origines
+## A propos
 Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 
 C'est une Version légèrement modifiée de [cette librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python) écrite par Olivier Brebant en 2011 et publié par l'académie d'Aix-Marseille en 2012, sous licence MIT depuis novembre 2018.
-
-Pour citer l'auteur:
-
-> [...] voici un petit 'module' [...] qui permet de créer une fenêtre sur écran, muni d'un repère mathématique, modifiable à la souris (zoom, déplacement...) et avec quelques commandes pour dessiner des objets élémentaires (points, lignes, rectangle, texte...).
 
 
 ## A quoi ca sert?
@@ -35,7 +31,9 @@ trace_texte(-3,3,"Un texte",couleur = 'blue')
 # On affiche la fenetre
 affiche_graphique()
 ```
-**Attention:** Il faut désactiver l'affichage de variables dans thonny pour pouvoir utiliser cette librairie.
+
+!!! warning "Attention"
+     Il faut désactiver [l'affichage de variables](../#affichage-des-variables) dans thonny pour pouvoir utiliser cette librairie.
 
 ## Techniquement
 
@@ -86,7 +84,7 @@ Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
 
 
 ### trace_rectangle
-        
+
 ```trace_rectangle(x1,y1,x2,y2, couleur='black', taille=2, remplissage='yellow')```     
 
 Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
@@ -94,4 +92,3 @@ Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
 - `couleur`:  Une chaine de caractère représentant la couleur des bords du rectangle (`'black'` par défaut).
 - `taille`: un entier représentant l'épaisseur du segment (`2` par défaut).
 - `remplissage`: Une chaine de caractère représentant la couleur du remplissage (`'yellow'` par défaut).
-

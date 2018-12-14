@@ -1,6 +1,6 @@
 site_name: Thonny Diderot
 repo_url: https://github.com/cspaier/thonny/diderot/
-edit_uri: /edit/diderot/docs/
+edit_uri: /cspaier/thonny//edit/diderot/docs/
 site_description : Environnement python du lycée Diderot (13001)
 markdown_extensions:
   - admonition
