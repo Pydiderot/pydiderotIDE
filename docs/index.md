@@ -13,7 +13,7 @@ Le langage de programmation est python version 3.6.4. Nous utilisons la version 
 # Installation
 Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/diderot.zip). Le décomprésser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
 
-Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org) et ensuite rajouter les librairies du lycée dans votre dossier personel.
+Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org). Vous pouvez télécharger les librairies du lycée [graphique.py](https://cdn.jsdelivr.net/gh/cspaier/thonny@diderot/Thonny/Lib/site-packages/graphique.py), [entree_tk.py](https://cdn.jsdelivr.net/gh/cspaier/thonny@diderot/Thonny/Lib/site-packages/entree_tk.py) et [lycee.py](https://cdn.jsdelivr.net/gh/cspaier/thonny@diderot/Thonny/Lib/site-packages/lycee.py) et les placer dans votre dossier personel.
 
 # Utilisation
 
