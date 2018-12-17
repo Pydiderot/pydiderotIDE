@@ -46,6 +46,7 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 
 # Quoi de neuf?
 
+
 Les modifications effectuées par l'équipe de math sont:
 
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
