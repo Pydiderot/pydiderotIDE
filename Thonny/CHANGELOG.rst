@@ -2,6 +2,260 @@
 Version history
 ===============
 
+3.0.8 (2018-11-15)
+==================
+* FIXED #597: The directory with Python scripts may not be in path for executing system commands from shell
+* FIXED: Make executing shell commands compatible with Python 3.5
+* FIXED: Make MyPy support compatible with older MyPy versions
+* FIXED: Make turtle.pyi compatible with Python 3.5 and remove Windows linebreaks
+* FIXED: MyPy error col offset
+
+3.0.7 (2018-11-14)
+==================
+* FIXED #592: MyPy doesn't work when cwd == sys.prefix
+* FIXED #593: No-message exceptions crash the Assistant
+* FIXED #595: Running system commands causes an error
+* FIXED #596: Arguments are ignored when running system commands from shell in Posix
+
+3.0.6 (2018-11-13)
+==================
+* FIXED #538: Turtle programs may give false warnings (Typeshed stubs were not packaged)
+* FIXED #586: Import interception mechanism fails for some modules
+* FIXED #591: Assistant fails when filename is missing from error info
+
+3.0.5 (2018-10-26)
+==================
+* FIXED #573: "Highlight matching names" and "Highlight local variables" makes editor very slow
+* FIXED #574: Error in outline
+* FIXED #578: resizing local variable pane in debugger causes error
+
+3.0.4 (2018-10-22)
+==================
+* FIXED #564: In Windows "Highlight local variables" and "Higlight matching names" cause Thonny to load Jedi files
+
+3.0.3 (2018-10-21)
+==================
+* FIXED: Regression from 3.0.2 (incomplete code refactoring)
+
+3.0.2 (2018-10-21)
+==================
+* FIXED #563: Problems with HeapView and EventsView
+* FIXED #565: Don't replace tabs in shell
+
+3.0.1 (2018-10-17)
+==================
+* FIXED: Problems with executing "Run" and "Debug" commands together with "cd" command
+* FIXED: Editor file name issues
+* FIXED: MicroPython %cat command failed over serial 
+
+3.0.0 (2018-10-16)
+==================
+* CHANGED: Line numbers are now visible by default
+* CHANGED: Stack and Assistant views are now in the bottom-right corner
+* CHANGED: Shell doesn't show full path of bundled interpreters anymore
+* ENHANCEMENT #555: Internal errors are now shown with more suitable dialog
+* FIXED #170: Command+k for clearing shell in Mac
+* FIXED #547: Recommend "..." button when plug-ins latest stable isn't suitable for this Thonny version
+* FIXED #548: Prevent inconsistent use of tabs and spaces error (when pasting or opening text containing tabs, Thonny proposes to replace them with spaces)
+* FIXED #557: Default window size too small for simple mode
+* FIXED #559: Make text copied to clipboard available even after closing Thonny
+* FIXED: Implemented workaround for https://bugs.python.org/issue34927
+* TECHNICAL: MicroPython backend now shows the source of failing internal commands 
+
+3.0.0rc1 (2018-10-08)
+=====================
+* ENHANCEMENT: Documented several features (see Help => Help contents)
+* FIXED #523: Open system shell doesn't work with pip 10
+* FIXED #534: Add shortcut for step-back
+* FIXED #538: Turtle programs give false warnings
+
+3.0.0b6 (2018-09-30)
+====================
+* CHANGED: In order to avoid pollution of user home directory, the configuration file and logs are now stored in directories recommended by platform style guides (%APPDATA%/Thonny on Windows, ~/Library/Thonny on Mac and ~/.config/Thonny on Linux). Old configuration and user logs will be imported on first run. 
+* CHANGED: "Back end" configuration page was renamed to "Interpreter" (as it was in Thonny 2.1)
+* CHANGED: Python version in Thonny+Python bundles upgraded to 3.7.1rc1
+* NEW: File menu received a submenu for easy opening of recent files. 
+* ENHANCEMENT: Add shortcut for clearing shell (Ctrl+L)
+* ENHANCEMENT: Warn when script is saved with a common library module name (eg. turtle.py)
+* ENHANCEMENT: Allow switching between regular and simple mode (Tools => Options => General)
+* FIXED #72: "View => Full screen" (in Expert mode) is now also available on Mac
+* FIXED #262: Add ability to select an autocomplete suggestion with TAB
+* FIXED #316: Nice debugger doesn't handle named arguments properly
+* FIXED #339: Allow disabling sound Tools => Options => General
+* FIXED #389: AST marker fails with dict merge
+* FIXED #478: Add option to reopen all files on start-up
+* FIXED #479: Make Thonny save configuration when "Quit"-ed on Mac
+* FIXED #480: Thonny now properly remembers opened files
+* FIXED #498: Open System Shell doesn't work on Raspberry
+* FIXED #501: Assistant feedback preview link doesn't work on mac
+* FIXED #510: Error when listing available interpreters in config page
+* FIXED #518: add menu item: "device" / "Upload current script" for MicroPython (by Jens Diemer) 
+* FIXED: Object inspector can show images (again)
+* FIXED: Pylint and MyPy processes don't hang anymore with large output. 
+
+3.0.0b5 (2018-09-01)
+====================
+* FIXED: requirements.txt was missing mypy 
+
+3.0.0b4 (2018-08-31)
+====================
+* NEW: When program has syntax error or crashes with an exception, Assistant pane opens and tries to help diagnose the problem. Uses Pylint, MyPy and custom dynamic analysis under the hood. (Big "Thank you!" to Raspberry Pi Foundation for the support!) 
+
+* ENHANCEMENT: Resizing the main window doesn't mess up views' layout anymore.
+* ENHANCEMENT: Better support for debugging f-strings.
+* ENHANCEMENT: Nice debugger now recovers better when it is not able to understand a program.
+* FIXED #496: Regression which caused Variables view to skip variables updates during "nicer debugging".
+* FIXED #440: Copy&paste over a selection will now delete the text selection first (was problem for some Linuxes)
+* FIXED: Removed a nasty debugging statement left into b3, which may cause a crash in the end of debugging.
+
+3.0.0b3 (2018-08-11)
+====================
+* FIXED: Various problems with pip GUI
+* FIXED: Variables view misses events 
+* FIXED: Error when last back-end was not available anymore
+* TECHNICAL: Implemented ChoiceDialog 
+
+3.0.0b2 (2018-08-11)
+====================
+* FIXED: problems with pip GUI in virtualenv
+
+3.0.0b1 (2018-08-11)
+====================
+
+Note: This version is successor of 2.2.0b4 and 2.1.21. Stable release of 2.2.0 was skipped. 
+(Incrementing the major version felt more appropriate considering the amount of new and changed features.)
+
+* NEW: Thonny now has two debug modes: beside original AST based debug mode (the "nicer" one, Ctrl+F5) there is now also line-based mode (the "faster" one, Shift+F5), which is not so intuitive but much more efficient. 
+* NEW: Both debug modes now support breakpoints (switch on line numbers and double-click on the margin). Big thanks to Raspberry Pi Foundation for the support! 
+* NEW: Alternative presentation for call stack (in single window, just like in most debuggers; see Tools => Options => Debugger) 
+* NEW: Clicking on the links in stacktrace now shows the variables of those frames.
+* NEW: You can re-run your changed program without closing it first (relevant for graphical programs).   
+* NEW: Checking "Run => Dock user windows" makes your Tkinter windows stay on top and appear always on the same location. This allows tweaking your turtle programs while looking at current output.
+* NEW: "View => Program arguments" opens a box where you can write the argument string for your program   
+* NEW: "Tools => Options => Backend => Custom Python interpreter" now allows creating virtual environments   
+* NEW: "Tools => Manage packages" now allows installing new packages with all CPython backends, not only virtual environments. If the backend is not a virtual environment it installs to user site packages (with `pip install --user`)
+* NEW: Thonny now includes basic support for MicroPython (former `thonny_microbit` plug-in). See https://bitbucket.org/plas/thonny/wiki/MicroPython for more info.
+* CHANGED: Upgraded Python to version 3.7.0 in Thonny+Python bundles 
+* CHANGED: Dropped support for Python 3.4 (both for front-end and back-end)
+* CHANGED: Dropped support for Tk 8.5. All bundles (including Mac's) now come with Tk 8.6.8
+* CHANGED: Default back-end is now "Same as front-end" (was "A special virtual environment"). This makes deployment easier in classroom setting and it is simpler scheme in general. "Special virtual environment" backend may be removed in future versions.
+* CHANGED: Plug-ins will be now installed to regular user site packages directory (was ~/.thonny/plugins)
+* CHANGED: If Thonny (front-end) is run from a virtual environment, user directory (with configuration.ini and logs) will be .thonny under virtual environment's root directory (instead of usual ~/.thonny).  
+* ENHANCEMENT: Better Windows installer (run as administrator for all-users install)
+* ENHANCEMENT: thonny.exe is now digitally signed
+* ENHANCEMENT: On Linux Thonny now uses native file dialogs (via zenity)   
+* ENHANCEMENT: Nicer debugger can now step into your functions defined in other modules   
+* ENHANCEMENT: Nicer debugger can now stop before the assignement of loop variable in for-loops   
+* ENHANCEMENT: "Run to cursor" can be called by right-clicking desired line in the editor and selecting the command from context menu   
+* ENHANCEMENT: Great time and memory optimizations in nicer debug mode. The ability to step back in time is not so expensive anymore.  
+* ENHANCEMENT: Thonny now detects external file modifications and proposes to reload 
+* ENHANCEMENT: New Windows installer (run as administrator for all-users install)
+* FIXED #163: Uninstaller now correctly removes "Open with Thonny" context menu entry
+* FIXED #340: Validate geometry before loading
+* FIXED #358: sys.exit() in user programs doesn't show stacktrace anymore
+* FIXED #363: subprocess.run causes Thonny backend to hang
+* FIXED #375: Files are now saved with linebreaks suitable for current platform
+* FIXED #419: logging doesn't work in user programs
+* FIXED #422: Make Ctrl+C, Ctrl+V etc. work on Greek keyboard
+* FIXED #440: In Linux paste over selection doesn't remove the selection
+* FIXED #450: Locals marker doesn't work with jedi 0.12
+* FIXED #468: Problem with changing backend interpreter
+* FIXED #471: Problem when Thonny uses jedi 0.11 or newer
+* FIXED #475: Heap view misbehaving on startup
+* FIXED: "Run => Run to cursor" works again 
+* FIXED: Thonny now honors PEP 263 style encoding markers when saving files. (UTF-8 is still the default) 
+* FIXED: Problem when jedi 0.10 and parso are both installed
+* TECHNICAL: Plug-in writers can now control each import in user programs (thonny.backend.VM.add_import_handler)
+* TECHNICAL: Communication messages between back-end and front-end were changed
+* TECHNICAL: Thonny doesn't tweak PYTHONUSERBASE anymore to put plugins under ~/.thonny. Regular user site packages is used instead 
+* TECHNICAL: Dependency to "packaging" introduced in 2.2 betas is now replaced with "setuptools" 
+
+2.2.0b4 (2018-06-05)
+====================
+* FIXED: Couldn't open menus with None backend
+
+2.2.0b3 (2018-06-05)
+====================
+* FIXED #425: Too big automatic scaling
+* FIXED #427: Can't run files with spaces in filename
+* FIXED: Fixed a bug when debugging and encountering an exception (by Alar Leemet)
+* ENHANCEMENT: Show indicator about stepping in the past in the text of editor tabs
+* ENHANCEMENT: Added Thonny version guards for installing plug-ins
+* EXPERIMENTAL: Preliminary support for running system commands in Thonny shell (eg. `!ls` or `!dir`)
+* TECHNICAL: thonny.exe in Windows bundle is now signed
+* TECHNICAL: Delay starting of Runner until UI is shown
+* TECHNICAL: Various enhancements to support MicroPython plug-ins 
+
+
+2.2.0b2 (2018-05-04)
+====================
+* FIXED: Options dialog crashes when Variables view hasn't been created yet
+
+2.2.0b1 (2018-05-04)
+====================
+* NEW: Added support for stepping back in time during debugging (Run => Step back) by Alar Leemet. If you accidentally stepped over an interesting part of code, then now you can step back and step into.
+* NEW: Added support for UI and syntax theming (https://bitbucket.org/plas/thonny/wiki/Theming)
+* NEW: Added several built-in dark themes
+* NEW: Added support for display scaling / high-DPI screens (Tools => Options => General)
+* NEW: Added closing buttons to the tabs of all views 
+* NEW: Added support for (CPython) back-end plug-ins (https://bitbucket.org/plas/thonny/wiki/Plugins)
+* NEW: Current editor line can be highlighted (Tools => Options => Editor)
+* NEW: Thonny can be started in simple mode (https://bitbucket.org/plas/thonny/wiki/Modes) 
+* NEW: Variables view now allows viewing variables from other modules beside __main__  (Tools => Options => General)
+* CHANGED: Dropped support for Python 3.4 (both for front-end and back-end)
+* CHANGED: Reorganized back-end configuration ("Tools => Options => Back-end" instead of "Tools => Options => Interpreter")
+* CHANGED: The roles of Interrupt and Stop commands are now more clear: Stop always restarts the backend and Interrupt only tries to interrupt 
+* CHANGED: Editing the running program doesn't interrupt it anymore.  
+* CHANGED: Object inspector now shows attributes and object overview on different tabs
+* CHANGED: Can't set thonny.THONNY_USER_DIR directly in customize.py anymore (https://bitbucket.org/plas/thonny/wiki/DeploymentOptions)
+* CHANGED: For plug-in writers: Unified early and late plug-ins (load_early_plugin should be renamed to load_plugin)
+* CHANGED: For plug-in writers: get_workbench and get_runner moved from thonny.globals to thonny
+* FIXED #358: Hide the stacktrace of SystemExit
+* FIXED #368: "Open system shell" doesn't work in Xfce (fix by Miro Hrončok) 
+* FIXED #370: Made zooming with Ctrl++ / Ctrl+- work on the numpad on Linux
+* FIXED #372: Now it's possible to specify a link as backend interpreter (fix by Miro Hrončok)
+* FIXED #396: exec causes range marker to crash
+* FIXED #403: Window width may become negative
+* TECHNICAL: Changed the location and sharing of backend.py, common.py, ast_utils.py
+* TECHNICAL: Cleaner approach for sharing jedi with the back-end
+* TECHNICAL: Package manager now uses pypi.org instead of pypi.python.org
+* TECHNICAL: Several changes in Runner and BackendProxy interface
+* TECHNICAL: Saving an editor now forces writing to disk (see https://learn.adafruit.com/adafruit-circuit-playground-express/creating-and-editing-code#1-use-an-editor-that-writes-out-the-file-completely-when-you-save-it)
+
+2.1.22 (2018-08-20)
+===================
+Happy re-independence day to Estonia!
+
+* ENHANCEMENT: Less intrusive logging for AST marking problems
+* FIXED #340: Validate geometry before loading
+* FIXED #363: subprocess.run causes Thonny backend to hang
+* FIXED #419: logging doesn't work in user programs
+* FIXED #440: In Linux paste over selection doesn't remove the selection
+* FIXED #487: Use PyPI.org and turn off pip warnings in package manager
+* FIXED #490: Debugger gets confused with f-strings
+* FIXED: In case of back-end problems, kill backend instead of resetting
+* FIXED: Colorize f-string prefixes
+
+2.1.21 (2018-07-17)
+===================
+* FIXED #471: Another problem when Thonny uses jedi 0.11 or newer
+
+2.1.20 (2018-07-16)
+===================
+* FIXED: Problem when jedi 0.10 and parso are both installed
+
+2.1.19 (2018-07-16)
+===================
+Updates in this version are relevant only on Windows
+
+* FIXED #467: Error when running Thonny with pythonw on Windows (regression from 2.1.18)
+* ENHANCEMENT: New Windows installer (run as administrator for all-users install)
+* ENHANCEMENT: Upgraded Python to version 3.6.6 in Thonny+Python bundles 
+
+2.1.18 (2018-06-22)
+===================
+* FIXED #450: Locals marker doesn't work with jedi 0.12
+
 2.1.17 (2018-03-21)
 ===================
 * FIXED #409: Package manager crashed after release of pip 9.0.2
