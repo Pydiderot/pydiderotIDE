@@ -1,3 +1,4 @@
+# Graphique
 ## A propos
 Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 
@@ -13,7 +14,7 @@ Par non dynamique, j’entends qu'on ne peut pas facilement utiliser cette libra
 
 ## Comment l'utiliser
 
-```
+```python
 # On importe la librairie
 from graphique import *
 
@@ -31,9 +32,12 @@ trace_texte(-3,3,"Un texte",couleur = 'blue')
 # On affiche la fenetre
 affiche_graphique()
 ```
+```eval_rst
+.. note::
+    Il faut désactiver [l'affichage de variables](../#affichage-des-variables) dans thonny pour pouvoir utiliser cette librairie.
+```
 
-!!! warning "Attention"
-     Il faut désactiver [l'affichage de variables](../#affichage-des-variables) dans thonny pour pouvoir utiliser cette librairie.
+
 
 ## Techniquement
 
@@ -57,38 +61,9 @@ affiche_fenetre()
 Par contre cela limite l'utilisation de cette librairie à une unique instance de l’objet `fenetre`. Limitation raisonnable dans un cadre pédagogique. Faux, contre exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).   
 
 ## Documentation
-### creer_fenetre
-```creer_fenetre(titre = "Repère mathematique", xmin=-10, xmax=10, ymin=-10, ymax=10, fond = 'white', axes = True)```
-
-Initialise l'object `Fenetre_graphique` et le stocke dans une variable globale `fenetre`.
-
-### affiche_fenetre
-```affiche_fenetre()```
-Affiche la fenetre graphique crée avec `creer_fenetre`
-
-### trace_point
-```trace_point(x,y, couleur='black', taille=1, forme='rond')```
-
-Ajoute un point dans la fenetre graphique aux coordonees `(x, y)`. Les parametres optionels:
-
-- `taille`: Un entier représentant la taille du point (`1` par défaut).
-- `forme`: Une chaine de caractère indiquant la forme du point. Les valeurs acceptées sont `'rond'` (défaut) ou `'croix'`.
-
-### trace_segment
-```trace_segment(x1, y1, x2, y2, couleur='black', taille=2)```
-
-Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
-
-- `couleur`: Une chaine de caractère représentant la couleur du segment (`'black'` par défaut).
-- `taille`: un entier représentant l'épaisseur du segment (`2` par défaut).
-
-
-### trace_rectangle
-
-```trace_rectangle(x1,y1,x2,y2, couleur='black', taille=2, remplissage='yellow')```     
-
-Trace un segment entre `(x1, y1)` et `(x2, y2)`. Les parametres optionels:
-
-- `couleur`:  Une chaine de caractère représentant la couleur des bords du rectangle (`'black'` par défaut).
-- `taille`: un entier représentant l'épaisseur du segment (`2` par défaut).
-- `remplissage`: Une chaine de caractère représentant la couleur du remplissage (`'yellow'` par défaut).
+```eval_rst
+    .. automodule:: graphique
+        :members:
+        :undoc-members: Fenetre_graphique
+        :show-inheritance:
+```
