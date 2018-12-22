@@ -16,14 +16,16 @@ Nous utilisons les issues github pour gérer cela. Vérifiez si votre cas est d�
 Nous acceptons les Pull requests dans la branche `dev`.
 
 Merci de commenter le code python en utilisant la [convention google](http://google.github.io/styleguide/pyguide.html):
-```
-Args:
-    path (str): The path of the file to wrap
-    field_storage (FileStorage): The :class:`FileStorage` instance to wrap
-    temporary (bool): Whether or not to delete the file when the File
-       instance is destructed
+```python
+def trace_texte(x, y, texte, couleur='black'):
+    """Trace un texte dans la fenêtre graphique au coordonées `x, y`.
 
-Returns:
-    BufferedFileStorage: A buffered writable file descriptor
+    Arguments:
+        x (float): abscisse du point
+        y (float): ordonnée du point
+        texte (str): Texte à placer dans la fenêtre graphique
+        couleur (str, optionel): Couleur du texte ('black' par défaut)
+
+    """
 ```
 Nous utilisons [sphinx](http://www.sphinx-doc.org/en/master/) et l'extension [napoleon](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/) pour construire la documentation à partir de ces docstrings.
