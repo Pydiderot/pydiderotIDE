@@ -6,7 +6,7 @@ Python à Diderot
     :maxdepth: 4
     :caption: General
 
-    home
+    index
 
 
 .. toctree::
