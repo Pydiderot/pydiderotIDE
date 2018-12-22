@@ -19,22 +19,26 @@ Pour l'utiliser, il suffit d'ajouter en début de programme
 ```python
 from lycee import *
 ```
+
 ## Documentation
 ### Trigonométrie
 Deux familles de fonctions: `_degré` et `_radian`
 ```eval_rst
 .. automodule:: trigo
     :members:
+    :member-order: bysource
 ```
 
 ### Arithmétique
 ```eval_rst
 .. automodule:: arithmetique
     :members:
+    :member-order: bysource
 ```
 
 ### Fonctions usuelles
 ```eval_rst
 .. automodule:: fonctions_usuelles
     :members:
+    :member-order: bysource
 ```

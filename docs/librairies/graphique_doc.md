@@ -45,14 +45,15 @@ Le coté non dynamique mentionné plus haut vient de l'utilisation de Tkinter. C
 
 La principale modification par rapport à la version de Olivier Brebant est de créer une variable globale `fenetre`.
 Cela simplifie l'utilisation pour les élèves auquel on cache le coté méthodes et attributs de la programmation orientée objet. Concrètement, on passe d'une utilisation:
-```
+
+```python
 fen = creer_fenetre()
 fen.trace_point(5,5,couleur='blue',taille=5)
 fen.loop()
 ```
 
 à
-```
+```python
 creer_fenetre()
 trace_point(5,5,couleur='blue',taille=5)
 affiche_fenetre()
@@ -64,6 +65,5 @@ Par contre cela limite l'utilisation de cette librairie à une unique instance d
 ```eval_rst
     .. automodule:: graphique
         :members:
-        :undoc-members: Fenetre_graphique
-        :show-inheritance:
+        :member-order: bysource
 ```

@@ -9,7 +9,7 @@ Concrètement cela peut remplacer avantageusement la fonction python `input()` d
 Cette librairie fournie également une fonction `demander_reel()` dont la sortie est un nombre réel de type `float`.
 
 ## utilisation
-```py
+```python
 # on importe la librairie
 from entree_tk import *
 
@@ -26,5 +26,5 @@ y = demander_reel()
 ```eval_rst
     .. automodule:: entree_tk
         :members:
-        :show-inheritance:
+        :member-order: bysource
 ```
