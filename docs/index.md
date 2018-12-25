@@ -37,10 +37,9 @@ Son utilisation n'est ***pas compatible avec l'import de librairies***. En effet
 ## Librairies
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
 
-- [graphique](librairies/graphique.md): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
-- [entree_tk](librairies/entree_tk.md): Fonctions d'entrées utilisateur avec des fenêtres tkinter. Fournie également une fonction convertissant l'entrée en nombre réel de type `float`.
-- [lycee](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee.py) : Une version modifiée de cette [librairie](http://download.tuxfamily.org/amienspython/lycee.py). Regroupe les fonctions principales que sont amener à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
-- [lycée graph](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee_graph.py) : une tentative d'affichage graphique dynamique.
+- [graphique](/Librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
+- [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
 
 
 ## Quoi de neuf?
