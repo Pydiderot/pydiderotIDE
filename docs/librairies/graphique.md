@@ -32,10 +32,11 @@ trace_texte(-3,3,"Un texte",couleur = 'blue')
 # On affiche la fenetre
 affiche_graphique()
 ```
-```eval_rst
+
+
 .. note::
-    Il faut désactiver [l'affichage de variables](../#affichage-des-variables) dans thonny pour pouvoir utiliser cette librairie.
-```
+    Il faut désactiver `l'affichage de variables </#affichage-des-variables>`_  dans thonny pour pouvoir utiliser cette librairie.
+
 
 
 
@@ -44,7 +45,7 @@ affiche_graphique()
 Le coté non dynamique mentionné plus haut vient de l'utilisation de Tkinter. C'est [techniquement possible](https://stackoverflow.com/questions/459083/how-do-you-run-your-own-code-alongside-tkinters-event-loop) avec la méthode [after](http://effbot.org/tkinterbook/widget.htm#Tkinter.Widget.after-method) mais pas réaliste dans un cadre pédagogique.
 
 La principale modification par rapport à la version de Olivier Brebant est de créer une variable globale `fenetre`.
-Cela simplifie l'utilisation pour les élèves auquel on cache le coté méthodes et attributs de la programmation orientée objet. Concrètement, on passe d'une utilisation:
+Cela simplifie l'utilisation pour les $E = mc^2$ élèves auquel on cache le coté méthodes et attributs de la programmation orientée objet. Concrètement, on passe d'une utilisation:
 
 ```python
 fen = creer_fenetre()
@@ -62,8 +63,10 @@ affiche_fenetre()
 Par contre cela limite l'utilisation de cette librairie à une unique instance de l’objet `fenetre`. Limitation raisonnable dans un cadre pédagogique. Faux, contre exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).   
 
 ## Documentation
-```eval_rst
-    .. automodule:: graphique
-        :members:
-        :member-order: bysource
-```
+
+
+.. automodule:: graphique
+    :members:
+    :member-order: bysource
+
+.. eof

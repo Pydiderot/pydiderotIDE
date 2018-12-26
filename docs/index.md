@@ -24,10 +24,11 @@ Voici quelques remarques utiles.
 
 
 ### Affichage des variables
-<div style="float: right;margin-top:-50px!important;"> ![variables](https://thonny.org/img/variables.png)</div>
+<div style="float: right;"> <img src="https://thonny.org/img/variables.png"></div>
+
 Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
 
-Son utilisation n'est ***pas compatible avec l'import de librairies***. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
+Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
 
 ### Importer des Librairies
 * **Sous Windows©**: Le dossier de travail est le dossier `python` qui se trouve dans votre dossier personnel. Il suffit d'y mettre un fichier `exemple.py` pour pouvoir l'importer avec la commande `from exemple import *`
@@ -37,7 +38,7 @@ Son utilisation n'est ***pas compatible avec l'import de librairies***. En effet
 ## Librairies
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
 
-- [graphique](/Librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [graphique](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
 - [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
 - [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
 
@@ -54,5 +55,5 @@ Les modifications effectuées par l'équipe de math sont:
 
 
 ## Les versions
-- La branche ***Diderot***: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
-- La branche ***dev***: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
+- La branche **Diderot**: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
+- La branche **dev**: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.

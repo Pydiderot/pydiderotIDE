@@ -14,8 +14,7 @@
 #
 import os
 import sys
-import recommonmark
-from recommonmark.transform import AutoStructify
+
 sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib', 'site-packages'))
 
 # -- Project information -----------------------------------------------------
@@ -46,8 +45,11 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
-    'sphinx.ext.autosummary'
+    'sphinx.ext.autosummary',
+    'm2r'
 ]
+
+
 add_module_names = False
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -56,10 +58,9 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-from recommonmark.parser import CommonMarkParser
-source_parsers = {'.md': CommonMarkParser,}
+
 source_suffix = ['.rst', '.md']
-#source_suffix = '.rst'
+# source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'toctree'
@@ -77,7 +78,7 @@ language = 'fr'
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = None
+pygments_style = 'friendly'
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -96,7 +97,7 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['source/_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -189,12 +190,4 @@ epub_exclude_files = ['search.html']
 # -- Options for intersphinx extension ---------------------------------------
 
 # Example configuration for intersphinx: refer to the Python standard library.
-#intersphinx_mapping = {'https://docs.python.org/': None}
-github_doc_root = 'https://github.com/cspaier/thonny/tree/diderot/'
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        'url_resolver': lambda url: url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_auto_toc_tree': False
-    }, True)
-    app.add_transform(AutoStructify)
+intersphinx_mapping = {'https://docs.python.org/': None}

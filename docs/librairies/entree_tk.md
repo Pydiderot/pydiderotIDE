@@ -23,8 +23,9 @@ y = demander_reel()
 ```
 
 ## Documentation
-```eval_rst
-    .. automodule:: entree_tk
-        :members:
-        :member-order: bysource
-```
+
+.. automodule:: entree_tk
+    :members:
+    :member-order: bysource
+
+.. eof
