@@ -1,15 +1,15 @@
 # Participer à ce projet
 
-L'objectif de ce projet est de construire un environement de dévellopement adapté à l'enseignement du language python dans l'enseignement secondaire.
+L'objectif de ce projet est de construire un environement de développement adapté à l'enseignement du language python dans l'enseignement secondaire.
 
 C'est un travail collaboratif sous licence MIT initié par des enseignants du lycée Denis Diderot à Marseille.
 
-Toute participation est la bienvenue tant sur le code que le coté pédagogique: Remarques, retours de tests, codes, documentation...
+Toute participation est la bienvenue tant sur le code que le coté pédagogique : remarques, retours de tests, codes, documentation...
 
 Si vous considérez participer nous vous en remercions et fournissons ce guide pour vous aider.
 
 ## J'ai un problème, une idée, une remarque
-Nous utilisons les issues github pour gérer cela. Vérifiez si votre cas est déja présent dans la liste d'issue et n'hésitez pas à en ouvrir si besoin.
+Nous utilisons les issues github pour gérer cela. Vérifiez si votre cas est déja présent dans la liste d'issues et n'hésitez pas à en ouvrir si besoin.
 
 
 ## J'ai codé un truc, fixé un bug
