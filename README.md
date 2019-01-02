@@ -1,39 +1,59 @@
-# Thonny
+# Python à Diderot
+## A propos
+Ce répertoire contient l'environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
 
-Ce répertoire contient l'environnement de développement utilisée par les élèves et les professeurs du [lycée Denis Diderot](http://www.lyc-diderot.ac-aix-marseille.fr/spip/) à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation.
+## Environnement
+Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
 
-Thonny est un [IDE](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement) python simple téléchargeable sur https://thonny.org/.
+Le langage de programmation est python version 3.6.4. Nous utilisons la version 2.1.17 de Thonny avec Tk 8.6.6.
 
-Le langage de programmation est python version 3.6.4 et nous utilisons la version 2.1.17 de Thonny.
 
-## Documentation
-La documentation (en cours de construction) est disponible [ici](https://thonny.readthedocs.io/).
+![](https://thonny.org/img/screenshot.png)
 
+
+## Installation
+Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/diderot.zip). Le décomprésser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
+
+Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org) et ensuite rajouter les librairies du lycée dans votre dossier personel.
+
+## Utilisation
+
+Thonny est simple d'utilisation. Ses fonctionnalitées sont documentées, en anglais, sur son [site internet](https://thonny.org/).
+Voici quelques remarques utiles.
+
+
+
+### Affichage des variables
+<div style="float: right;"> <img src="https://thonny.org/img/variables.png"></div>
+
+Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
+
+Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
+
+### Importer des Librairies
+* **Sous Windows©**: Le dossier de travail est le dossier `python` qui se trouve dans votre dossier personnel. Il suffit d'y mettre un fichier `exemple.py` pour pouvoir l'importer avec la commande `from exemple import *`
+
+* **Sous Unix**: Vous utilisez la version officielle de thonny. Le dossier de travail est donc votre dossier personnel.
+
+## Librairies
+Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
+
+- [graphique](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
+- [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
 
 
 ## Quoi de neuf?
+
 Les modifications effectuées par l'équipe de math sont:
+
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
 - [running.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/running.py#L41): Le dossier de travail est `%HOMESHARE%/python/`
 
 À ce jour, les modifications permettent de travailler sous Windows©.
 
-Les librairies suivantes ont étés ajoutées :
-- [graphique](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) : Une version modifiée de cette [librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python). Permet l'affichage d'un repère du plan intéractif (zoom, déplacer). La documentation est dans le [wiki](https://github.com/cspaier/thonny/wiki/Graphique).
-- [lycee](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee.py) : Une version modifiée de cette [librairie](http://download.tuxfamily.org/amienspython/lycee.py). Regroupe les fonctions principales que sont amener à utiliser les élèves de lycée en mathématiques (toutes filières confondues). 
-- [lycée graph](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/lycee_graph.py) : une tentative d'affichage graphique dynamique.
-
-## Questions fréquentes
-- **Comment télécharger et utiliser thonny?** 
-Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/diderot.zip). Le décomprésser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
-- **Peut-on importer ses propres librairies avec thonny?**
- Oui! Le dossier de travail est le dossier `python` qui se trouve dans votre dossier personnel. Il suffit d'y mettre un fichier `exemple.py` pour pouvoir l'importer avec la commande `from exemple import *`
-
-- **Et pour linux/MacOS ?** Il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org) et ensuite rajouter les librairies du lycée dans votre dossier personel.
 
 ## Les versions
-### La branche Diderot
-C'est la version téléchargeable et installée sur les machines du lycée Diderot.
-### La branche dév
-La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
+- La branche **Diderot**: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
+- La branche **dev**: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
