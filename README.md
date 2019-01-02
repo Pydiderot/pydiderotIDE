@@ -2,6 +2,9 @@
 ## A propos
 Ce répertoire contient l'environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
 
+## Documentation
+La documentation (en cours de construction) est disponible [ici](https://thonny.readthedocs.io/).
+
 ## Environnement
 Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
 
