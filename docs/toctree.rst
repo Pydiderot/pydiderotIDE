@@ -14,3 +14,9 @@ Python à Diderot
     :glob:
 
     librairies/*
+
+.. toctree::
+    :caption: Formations
+    :glob:
+
+    formation/*
