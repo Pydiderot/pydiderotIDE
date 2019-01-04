@@ -8,7 +8,7 @@ La documentation (en cours de construction) est disponible [ici](https://thonny.
 ## Environnement
 Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
 
-Le langage de programmation est python version 3.6.4. Nous utilisons la version 2.1.17 de Thonny avec Tk 8.6.6.
+Le langage de programmation est python version 3.7.1rc1. Nous utilisons la version 3.0.8 de Thonny avec Tk 8.6.8.
 
 
 ![](https://thonny.org/img/screenshot.png)
@@ -49,14 +49,16 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 
 Les modifications effectuées par l'équipe de math sont:
 
+- Ajout des librairies [pygame 1.9.4](https://www.pygame.org/), [scipy 1.2.0](https://www.scipy.org/), [numpy 1.15.4](http://www.numpy.org/), [matplotlib 3.0.2](https://matplotlib.org/).
+
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
-- [running.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/running.py#L41): Le dossier de travail est `%HOMESHARE%/python/`
+- [workbench.py](https://github.com/cspaier/thonny/blob/f1c57d3062d60841dea3bdf7e2af93243cd742c9/Thonny/Lib/site-packages/thonny/workbench.py#L205-L208): Le dossier de travail est `%HOMESHARE%/python/`
 
 À ce jour, les modifications permettent de travailler sous Windows©.
 
 ## Questions fréquentes
-- **Comment télécharger et utiliser thonny?** 
+- **Comment télécharger et utiliser thonny?**
 Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/diderot.zip). Le décomprésser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
 - **Peut-on importer ses propres librairies avec thonny?**
  Oui! Le dossier de travail est le dossier `python` qui se trouve dans votre dossier personnel. Il suffit d'y mettre un fichier `exemple.py` pour pouvoir l'importer avec la commande `from exemple import *`
