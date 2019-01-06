@@ -69,3 +69,4 @@ Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cs
 ## Les versions
 - La branche **Diderot**: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
 - La branche **dev**: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
+- La branche **thonny-2.17.0** contient la version 2.17.0 de thonny utilisée au lycée jusqu'à janvier 2019.

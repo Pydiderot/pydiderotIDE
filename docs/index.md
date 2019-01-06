@@ -38,7 +38,7 @@ Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, 
 ## Librairies
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
 
-- [graphique](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [repere](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
 - [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
 - [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
 
@@ -59,3 +59,4 @@ Les modifications effectuées par l'équipe de math sont:
 ## Les versions
 - La branche **Diderot**: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
 - La branche **dev**: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
+- La branche **thonny-2.17.0** contient la version 2.17.0 de thonny utilisée au lycée jusqu'à janvier 2019.

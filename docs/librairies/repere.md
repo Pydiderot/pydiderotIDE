@@ -1,6 +1,6 @@
 # Graphique
 ## A propos
-Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
+Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/repere.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 
 C'est une Version légèrement modifiée de [cette librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python) écrite par Olivier Brebant en 2011 et publié par l'académie d'Aix-Marseille en 2012, sous licence MIT depuis novembre 2018.
 
@@ -16,7 +16,7 @@ Par non dynamique, j’entends qu'on ne peut pas facilement utiliser cette libra
 
 ```python
 # On importe la librairie
-from graphique import *
+from repere import *
 
 # On initialise la fenetre
 creer_fenetre()
@@ -65,7 +65,7 @@ Par contre cela limite l'utilisation de cette librairie à une unique instance d
 ## Documentation
 
 
-.. automodule:: graphique
+.. automodule:: repere
     :members:
     :member-order: bysource
 
