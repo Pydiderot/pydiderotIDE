@@ -24,7 +24,8 @@ Voici quelques remarques utiles.
 
 
 ### Affichage des variables
-<div style="float: right;"> <img src="https://thonny.org/img/variables.png"></div>
+.. image:: https://thonny.org/img/variables.png
+  :align: right
 
 Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
 

@@ -97,13 +97,13 @@ Python ne charge pas toutes les commandes disponibles lorsqu'on le lance. Si on 
 print(sqrt(2))
 ```
 solutions :
-1. On importe la fonction `sqrt` de la librairie `math`. On peut ensuite l'utiliser directement.
+1. On importe la fonction `sqrt` de la librairie [math](https://docs.python.org/fr/3/library/math.html). On peut ensuite l'utiliser directement.
 ```python
 from math import sqrt
 print(sqrt(2))
 ```
 
-2. Une autre solution qui importe tout le contenu de la librairie `math` :
+2. Une autre solution qui importe tout le contenu de la librairie [math](https://docs.python.org/fr/3/library/math.html) :
 ```python
 from math import *
 print(sqrt(2))
@@ -114,7 +114,7 @@ print(pi)
   Je me questionne sur le besoin des imports suivants. Cela complique l'utilisation pour les élèves qui doivent préciser l'origine de la fonction.
   C'est utile si on utilise deux librairies contenant des fonctions homonymes mais on peut faire en sorte que cela n'arrive pas.
 
-3. On peut également importer la libraire `math` globalement. Il faudra ensuite préciser que les fonctions viennent de cette libraire en utilisant `math.sqrt(2)`
+3. On peut également importer la libraire [math](https://docs.python.org/fr/3/library/math.html) globalement. Il faudra ensuite préciser que les fonctions viennent de cette libraire en utilisant `math.sqrt(2)`
 ```python
 import math
 print(math.sqrt(2))
@@ -131,7 +131,7 @@ print(m.pi)
 
 ### 4.b. Quelques exemples avec les librairies « maison »
 
-La librairie :doc:`entree_tk </librairies/entree_tk>` permet de répondre au problème de typage évoqué précédemment :
+La librairie [entree_tk](/librairies/entree_tk) permet de répondre au problème de typage évoqué précédemment :
 
 ```python
 from entree_tk import *
@@ -140,7 +140,7 @@ a=demander_reel()
 print(type(a))
 print(a)
 ```
-La librairie :doc:`repere </librairies/repere>` permet d'afficher facilement une fenêtre graphique munie d'un repère où on fera par exemple afficher la courbe d'une fonction.
+La librairie [repere](/librairies/repere) permet d'afficher facilement une fenêtre graphique munie d'un repère où on fera par exemple afficher la courbe d'une fonction.
 
 ```python
 from repere import *
@@ -148,38 +148,56 @@ creer_fenetre()
 trace_segment(1,2,3,5)
 trace_point(3,3)
 ```
+
 Un autre exemple, plus élaboré :
+.. note::
+  Je trouve plus simple d'utiliser while. A discuter.
+
 ```python
 from math import *
 from graphique import *
 creer_fenetre()
 for i in range(100): #i va de 0 à 100
-    x=i/10-5 #x va de -5 à 5
+    x = i / 10 - 5 #x va de -5 à 5
     trace_point(x,cos(x))
 ```
 
-## 5 python avec les élèves : prise en main
+## 5. python avec les élèves : prise en main
+
+.. note::
+  est-il nécéssaure de redire où est enregistré le travail?
+
 Les élèves enregistrent leur travail dans le dossier `USER/python/`.
 
 Lors de la projection de thonny, les caractères sont trop petits. On peut utiliser ctrl +/ crl molette pour zoomer
+
 - le fait que la config est enregistrée automatiquement quand on quitte thonny
-- view > variables pour voir le contenu des variables
-- tools > options < show lines numbers
+
+.. image:: https://thonny.org/img/variables.png
+  :align: right
+
+Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
+
+Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
+
+- tools > options > show lines numbers -> Utile?
 - debug et les différents types de « pas à pas »
 - exemple de programme :
 
-xA=input("Abscisse de A ? ")
-yA=input("Ordonnée de A ? ")
-xB=input("Abscisse de B ? ")
-yB=input("Ordonnée de B ? ")
-xM=(float(xA)+float(xB))/2
-yM=(float(yA)+float(yB))/2
-print("Coordonnées du milieu : ("+str(xM)+" ; "+str(yM)+")")
+```python
+xA = float(input("Abscisse de A ? "))
+yA = float(input("Ordonnée de A ? "))
+xB = float(input("Abscisse de B ? "))
+yB = float(input("Ordonnée de B ? "))
+xM = (xA + xB) / 2
+yM = (yA + yB) / 2
+print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
+```
 
 → exo : le refaire et l’améliorer en ajoutant de quoi afficher la distance AB
-→ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique »
+→ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la librarie [entree_tk](/librairies/entree_tk)
 
-6) gestion salle info
+## 6. gestion salle info
 
 ce qui ne marche pas : parler à un groupe d'élèves devant leur écran
 ce qui peut marcher :
@@ -188,14 +206,17 @@ ce qui peut marcher :
 - envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel ...), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
  - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel ...), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je vérrouille / déverrouille !)
 
-6) un peu plus loin :
+## 7. un peu plus loin :
+### 7.a
 - comment envoyer du code aux élèves ? / comment récupérer du code qu’ils ont fait ?
 - comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
+Il suffit de se rendre sur https://pydiderot.readthedocs.com
 - comment peut-on demander à ajouter une fonction dans les librairies ?
+Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
-7) un ou deux autres exemples d’activités à faire avec les élèves.
+## 7.b. un ou deux autres exemples d’activités à faire avec les élèves.
 traceur de courbes?
 discriminant ?
 
-8) un peu plus de python : listes, boucles
+un peu plus de python : listes, boucles
 Les listes sont-elles nécessaires?
