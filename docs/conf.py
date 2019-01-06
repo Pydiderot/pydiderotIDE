@@ -15,6 +15,7 @@
 import os
 import sys
 
+sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib',))
 sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib', 'site-packages'))
 
 # -- Project information -----------------------------------------------------

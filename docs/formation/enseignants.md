@@ -6,23 +6,28 @@
 
 Démarrer > Programmes > \_Maths > Raccourcis maths > Thonny python
 
+.. image:: https://thonny.org/img/get_started.png
+    :align: right
+    :width: 200px
+
 ## 2. Prise en main :
+
 Quand on lance Thonny, il y a deux zones :
-![](https://thonny.org/img/get_started.png)
- - la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hell.py")
- - la zone du bas qui est un **shell** : comme un écran de calculatrice, mais qui exécute des commandes Python (on ne peut pas l'enregistrer)(c'est dans cette zone qu'apparaissent les résultats des commandes exécutées depuis un fichier de la zone du haut)
+
+- la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hello.py")
+- la zone du bas qui est un **shell** : comme un écran de calculatrice, mais qui exécute des commandes Python (on ne peut pas l'enregistrer)(c'est dans cette zone qu'apparaissent les résultats des commandes exécutées depuis un fichier de la zone du haut)
 
 ### Quelques instructions à essayer dans le shell :
 ```python
-3+4
+3 + 4
 print("hello world")
 "hello"+"world"
 ```
 ### Quelques exemples à enregistrer dans un fichier :
 ```python
-3+4
+3 + 4
 print("hello world")
-"hello"+"world"
+"hello" + "world"
 ```
 Pour exécuter le fichier, il faut cliquer sur le bouton **run** (un triangle blanc dans un disque vert) ou appuyer sur **F5**.
 Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans : `USER/python`
@@ -50,12 +55,12 @@ Les messages d'erreur apparaissent en rouge dans le shell. Même s'ils sont indi
 
 Essayez de faire exécuter ces instructions :
 ```python
-3*'13'
-'3'*'13'
-'3'+'13'
-3+'13'
-3*13
-3*13.0
+3 * '13'
+'3' * '13'
+'3' + '13'
+3 + '13'
+3 * 13
+3 * 13.0
 ```
 ### 3.c. Deux trucs :
 
@@ -69,7 +74,7 @@ Essayez de faire exécuter ces instructions :
 Essayez de faire exécuter ces instructions :
 ```python
 input("tapez quelque chose")
-a=input("tapez quelque chose")
+a = input("tapez quelque chose")
 a
 print(a)
 type(a)
@@ -81,7 +86,7 @@ Si vous avez essayé les lignes de code précédentes avec diverses entrées tap
 Du coup, cela va sans cesse provoquer des erreurs dans les programmes des élèves. Un des moyens d'éviter cela est de leur donner la ligne de `input` sous la forme suivante :
 
 ```python
-a=float(input("tapez quelque chose"))
+a = float(input("tapez quelque chose"))
 ```
 `a` sera alors automatiquement du type "nombre à virgule flottante", ce qui est en général ce qu'on veut.
 
@@ -91,26 +96,42 @@ Python ne charge pas toutes les commandes disponibles lorsqu'on le lance. Si on 
 ```python
 print(sqrt(2))
 ```
-solution :
+solutions :
+1. On importe la fonction `sqrt` de la librairie `math`. On peut ensuite l'utiliser directement.
 ```python
 from math import sqrt
 print(sqrt(2))
 ```
-une autre solution (si on doit utiliser plusieurs fonctions du même module) :
+
+2. Une autre solution qui importe tout le contenu de la librairie `math` :
+```python
+from math import *
+print(sqrt(2))
+print(pi)
+```
+
+.. note::
+  Je me questionne sur le besoin des imports suivants. Cela complique l'utilisation pour les élèves qui doivent préciser l'origine de la fonction.
+  C'est utile si on utilise deux librairies contenant des fonctions homonymes mais on peut faire en sorte que cela n'arrive pas.
+
+3. On peut également importer la libraire `math` globalement. Il faudra ensuite préciser que les fonctions viennent de cette libraire en utilisant `math.sqrt(2)`
 ```python
 import math
 print(math.sqrt(2))
 print(math.pi)
 ```
-une autre solution (si on veut renommer le module) :
+
+4. On peut aussi choisir de renommer le module :
 ```python
 import math as m
 print(m.sqrt(2))
 print(m.pi)
 ```
+
+
 ### 4.b. Quelques exemples avec les librairies « maison »
 
-La librairie `entree_tk` permet de répondre au problème de typage évoqué précédemment :
+La librairie :doc:`entree_tk </librairies/entree_tk>` permet de répondre au problème de typage évoqué précédemment :
 
 ```python
 from entree_tk import *
@@ -119,15 +140,15 @@ a=demander_reel()
 print(type(a))
 print(a)
 ```
-La librairie `graphique` permet d'afficher facilement une fenêtre graphique où on fera par exemple afficher la courbe d'une fonction.
+La librairie :doc:`repere </librairies/repere>` permet d'afficher facilement une fenêtre graphique munie d'un repère où on fera par exemple afficher la courbe d'une fonction.
 
 ```python
-from graphique import *
+from repere import *
 creer_fenetre()
 trace_segment(1,2,3,5)
 trace_point(3,3)
 ```
-Un autre exempke, plus élaboré :
+Un autre exemple, plus élaboré :
 ```python
 from math import *
 from graphique import *
@@ -137,9 +158,10 @@ for i in range(100): #i va de 0 à 100
     trace_point(x,cos(x))
 ```
 
-5) python avec les élèves : prise en main
-- où les élèves doivent-ils enregistrer leur travail ?
-- ctrl +/ crl molette pour zoomer
+## 5 python avec les élèves : prise en main
+Les élèves enregistrent leur travail dans le dossier `USER/python/`.
+
+Lors de la projection de thonny, les caractères sont trop petits. On peut utiliser ctrl +/ crl molette pour zoomer
 - le fait que la config est enregistrée automatiquement quand on quitte thonny
 - view > variables pour voir le contenu des variables
 - tools > options < show lines numbers
