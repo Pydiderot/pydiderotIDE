@@ -14,7 +14,8 @@ Le langage de programmation est python version 3.7.1rc1. Nous utilisons la versi
 ## Installation
 Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/diderot.zip). Le décomprésser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
 
-Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org) et ensuite rajouter les librairies du lycée dans votre dossier personel.
+Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org). Vous pouvez ensuite télécharger les librairies du lycée [ici](_static/diderot.zip) et les rajouter dans votre dossier personnel.
+
 
 ## Utilisation
 
@@ -37,7 +38,7 @@ Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, 
 * **Sous Unix**: Vous utilisez la version officielle de thonny. Le dossier de travail est donc votre dossier personnel.
 
 ## Librairies
-Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
+Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques. Vous pouvez télécharger nos librairies zippées [ici](_static/diderot.zip).
 
 - [repere](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
 - [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
