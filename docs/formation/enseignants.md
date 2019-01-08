@@ -4,7 +4,7 @@
 
 ## 1. Où se trouve le raccourci vers thonny
 
-Démarrer > Programmes > \_Maths > Raccourcis maths > Thonny python
+Logiciels > MATH > \_Maths > _RACCOURCIS MATH_ > Thonny python
 
 .. image:: https://thonny.org/img/get_started.png
     :align: right
