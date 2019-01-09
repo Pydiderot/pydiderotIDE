@@ -7,9 +7,9 @@ Il est à destination des professeurs n'ayant pas ou peu de connaisances sur le 
 L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
     
     - le language de programation
-    - l'environnement de devellopement thonny utilisé au lycée
+    - l'environnement de développement thonny utilisé au lycée
     - les librairies propres au lycée Diderot
-    - quelques constats pratique d'ordre pédagogique.
+    - quelques constats pratiques d'ordre pédagogique.
 
 
 
@@ -54,7 +54,7 @@ y = x + 1
 print(y)
 ```
 ### 3.b. Typage et ce que provoque l’absence de typage
-Les variables peuvent être de différent type : par exemple "entier" `int` ou "chaîne de caractères (texte)" `str` ou encore "nombre à virgule flottante" `float`.
+Les variables peuvent être de différents types : par exemple "entier" `int` ou "chaîne de caractères (texte)" `str` ou encore "nombre à virgule flottante" `float`.
 
 Souvent, on peut suggérer facilement à Python le type utilisé. Par exemple, `a=2` est de type `ìnt`, `a=2.0` est de type `float`, `a='2'` ou `a="2"` est de type `str`.
 
@@ -123,25 +123,6 @@ print(sqrt(2))
 print(pi)
 ```
 
-.. note::
-  Je me questionne sur le besoin des imports suivants. Cela complique l'utilisation pour les élèves qui doivent préciser l'origine de la fonction.
-  C'est utile si on utilise deux librairies contenant des fonctions homonymes mais on peut faire en sorte que cela n'arrive pas.
-
-3. On peut également importer la libraire [math](https://docs.python.org/fr/3/library/math.html) globalement. Il faudra ensuite préciser que les fonctions viennent de cette libraire en utilisant `math.sqrt(2)`
-```python
-import math
-print(math.sqrt(2))
-print(math.pi)
-```
-
-4. On peut aussi choisir de renommer le module :
-```python
-import math as m
-print(m.sqrt(2))
-print(m.pi)
-```
-
-
 ### 4.b. Quelques exemples avec les librairies « maison »
 
 La librairie [entree_tk](/librairies/entree_tk) permet de répondre au problème de typage évoqué précédemment :
@@ -163,8 +144,6 @@ trace_point(3,3)
 ```
 
 Un autre exemple, plus élaboré :
-.. note::
-  Je trouve plus simple d'utiliser while. A discuter.
 
 ```python
 from math import *
@@ -174,27 +153,43 @@ for i in range(100): #i va de 0 à 100
     x = i / 10 - 5 #x va de -5 à 5
     trace_point(x,cos(x))
 ```
+La même chose avec un "while" au lieu du "for" (quel est le plus simple avec les élèves ?) :
+
+```python
+from math import *
+from graphique import *
+creer_fenetre()
+i=0
+while i<101: #i va de 0 à 100
+    x = i / 10 - 5 #x va de -5 à 5
+    trace_point(x,cos(x))
+    i=i+1
+```
 
 ## 5. python avec les élèves : prise en main
 
 .. note::
-  est-il nécéssaure de redire où est enregistré le travail?
+  est-il nécéssaure de redire où est enregistré le travail? 
+  OUI :)
 
-Les élèves enregistrent leur travail dans le dossier `USER/python/`.
+ - Les élèves enregistrent leur travail dans le dossier `USER/python/`.
 
-Lors de la projection de thonny, les caractères sont trop petits. On peut utiliser ctrl +/ crl molette pour zoomer
+Lors de la vidéoprojection de thonny, les caractères sont trop petits. On peut utiliser ctrl +/ crl molette pour zoomer
 
-- le fait que la config est enregistrée automatiquement quand on quitte thonny
+- La config est enregistrée automatiquement quand on quitte thonny
 
 .. image:: https://thonny.org/img/variables.png
   :align: right
 
-Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
+ - Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
 
 Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
 
-- tools > options > show lines numbers -> Utile?
+- Pour afficher les numéros des lignes :
+tools > options > show lines numbers
+
 - debug et les différents types de « pas à pas »
+
 - exemple de programme :
 
 ```python
@@ -212,12 +207,13 @@ print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
 
 ## 6. gestion salle info
 
-ce qui ne marche pas : parler à un groupe d'élèves devant leur écran
-ce qui peut marcher :
+Ce qui ne marche pas : parler à un groupe d'élèves devant leur écran.
+
+Ce qui peut marcher :
 - faire se lever tout le groupe, venir devant le tableau et parler avec le vidéo-projecteur
-- verrouiller tous les écrans (ça peut se faire avec le logiciel...)(il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
-- envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel ...), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
- - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel ...), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je vérrouille / déverrouille !)
+- verrouiller tous les écrans (ça peut se faire avec le logiciel iTALC (il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
+- envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
+ - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je vérrouille / déverrouille !)
 
 ## 7. un peu plus loin :
 ### 7.a
