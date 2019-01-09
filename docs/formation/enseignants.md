@@ -212,6 +212,10 @@ Ce qui ne marche pas : parler à un groupe d'élèves devant leur écran.
 Ce qui peut marcher :
 - faire se lever tout le groupe, venir devant le tableau et parler avec le vidéo-projecteur
 - verrouiller tous les écrans (ça peut se faire avec le logiciel iTALC (il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
+
+..note::
+   mettre une image de iTALC
+
 - envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
  - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je vérrouille / déverrouille !)
 
@@ -219,7 +223,7 @@ Ce qui peut marcher :
 ### 7.a
 - comment envoyer du code aux élèves ? / comment récupérer du code qu’ils ont fait ?
 - comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
-Il suffit de se rendre sur https://pydiderot.readthedocs.com
+Il suffit de se rendre sur https://pydiderot.readthedocs.io
 - comment peut-on demander à ajouter une fonction dans les librairies ?
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
