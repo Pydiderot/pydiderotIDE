@@ -1,6 +1,17 @@
 # Formation technique
+## Quoi? pour qui?
+Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement Thonny / Python / modules "maison".
 
-*Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement Thonny / Python / modules "maison"*
+Il est à destination des professeurs n'ayant pas ou peu de connaisances sur le language python.
+
+L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
+    
+    - le language de programation
+    - l'environnement de devellopement thonny utilisé au lycée
+    - les librairies propres au lycée Diderot
+    - quelques constats pratique d'ordre pédagogique.
+
+
 
 ## 1. Où se trouve le raccourci vers thonny
 
