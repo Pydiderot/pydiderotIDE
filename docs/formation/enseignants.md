@@ -1,4 +1,4 @@
-# Formation technique.
+# Formation technique
 
 *Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement Thonny / Python / modules "maison"*
 
@@ -89,6 +89,8 @@ Du coup, cela va sans cesse provoquer des erreurs dans les programmes des élèv
 a = float(input("tapez quelque chose"))
 ```
 `a` sera alors automatiquement du type "nombre à virgule flottante", ce qui est en général ce qu'on veut.
+
+Exercice: Demander deux nombres à l'utilisateur et afficher leur produit.
 
 ## 4. Librairies :
 ### 4.a. Généralités :
