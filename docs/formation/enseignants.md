@@ -1,6 +1,6 @@
 # Formation technique
 ## Quoi? pour qui?
-Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement Thonny du lycée.
+Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement python du lycée.
 Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le language python.
 
 L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
@@ -45,15 +45,16 @@ Pour exécuter le fichier, il faut cliquer sur le bouton **run** (un triangle bl
 Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans : `USER/python`
 
 ## 3. Quelques trucs sur python :
+
 .. image: https://www.python.org/static/img/python-logo-large.png
     :align: right
     :width: 200px
 
-Python est un langage de programmation libre qui fonctionne sur toutes plate-formes (Windows, Mac, Linux, Android,…). Il à été créé
-au début des années 90 et baptisé en l’honneur de la série Monty Python's Flying Circus.
+Python est un langage de programmation libre qui fonctionne sur toutes plate-formes (Windows, Mac, Linux, Android,…). Il à été créé au début des années 90 et baptisé en l’honneur de la série Monty Python's Flying Circus.
 
-Épuré et lisible, Python est utilisé par de nombreuses entreprises et organisations (Google, NASA, …), dans la recherche scientifique
-et est enseigné au lycée, en prépa, et à l’université.
+Épuré et lisible, Python est utilisé par de nombreuses entreprises et organisations (Google, NASA, …), dans la recherche scientifique et est enseigné au lycée, en prépa, et à l’université.
+
+Les projets de [nouveaux programmes](http://cache.media.education.gouv.fr/file/CSP/19/8/2de_Mathematiques_Enseignement_commun_1021198.pdf) précisent le choix de python comme langage de programation utilisé à partir de la seconde.
 
 
 ### 3.a. Variable
