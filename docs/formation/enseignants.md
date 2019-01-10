@@ -240,7 +240,7 @@ Ce qui peut marcher :
 - faire se lever tout le groupe, venir devant le tableau et parler avec le vidéo-projecteur
 - verrouiller tous les écrans (ça peut se faire avec le logiciel iTALC (il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
 
-![](https://github.com/cspaier/pydiderot/blob/dev/docs/formation/Capture_iTALC.PNG)
+![](https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/Capture_iTALC.PNG)
 
 - envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
  - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je vérrouille / déverrouille !)
