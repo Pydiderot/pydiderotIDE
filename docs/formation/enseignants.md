@@ -1,15 +1,14 @@
 # Formation technique
 ## Quoi? pour qui?
-Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement Thonny / Python / modules "maison".
-
-Il est à destination des professeurs n'ayant pas ou peu de connaisances sur le language python.
+Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement Thonny du lycée.
+Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le language python.
 
 L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
     
-    - le language de programation
-    - l'environnement de développement thonny utilisé au lycée
-    - les librairies propres au lycée Diderot
-    - quelques constats pratiques d'ordre pédagogique.
+   - le language de programation
+   - l'environnement de développement thonny utilisé au lycée
+   - les librairies propres au lycée Diderot
+   - quelques constats pratiques d'ordre pédagogique.
 
 
 
@@ -28,6 +27,8 @@ Quand on lance Thonny, il y a deux zones :
 - la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hello.py")
 - la zone du bas qui est un **shell** : comme un écran de calculatrice, mais qui exécute des commandes Python (on ne peut pas l'enregistrer)(c'est dans cette zone qu'apparaissent les résultats des commandes exécutées depuis un fichier de la zone du haut)
 
+.. note: shell en francais c'est console non?
+
 ### Quelques instructions à essayer dans le shell :
 ```python
 3 + 4
@@ -44,8 +45,21 @@ Pour exécuter le fichier, il faut cliquer sur le bouton **run** (un triangle bl
 Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans : `USER/python`
 
 ## 3. Quelques trucs sur python :
+.. image: https://www.python.org/static/img/python-logo-large.png
+    :align: right
+    :width: 200px
+
+Python est un langage de programmation libre qui fonctionne sur toutes plate-formes (Windows, Mac, Linux, Android,…). Il à été créé
+au début des années 90 et baptisé en l’honneur de la série Monty Python's Flying Circus.
+
+Épuré et lisible, Python est utilisé par de nombreuses entreprises et organisations (Google, NASA, …), dans la recherche scientifique
+et est enseigné au lycée, en prépa, et à l’université.
+
+
 ### 3.a. Variable
 Une des difficulté principale pour les élèves au début (en seconde) est l'utilisation de variables.
+
+.. note: Proposer ici l'utilisation de "boites" comme aide didactique à la notion de variable?
 
 Quelques lignes à tester :
 ```python
@@ -61,6 +75,9 @@ Souvent, on peut suggérer facilement à Python le type utilisé. Par exemple, `
 Si Python ne sait pas trop quel est le type d'une variable, il essaye de faire un choix (par exemple il considère que la variable est de type "texte" `str`) ou alors il renvoie un message d'erreur.
 
 Les messages d'erreur apparaissent en rouge dans le shell. Même s'ils sont indigestes, il faut expliquer aux élèves que dans un message d'erreur il y a deux informations très utiles :
+
+.. note: printscreen d'erreur?
+
  - une explication sur l'erreur (par exemple le mot-clé "typeError" signale qu'il s'agit d'une erreur de typage)
  - la ligne du fichier où l'erreur a été rencontrée (en bleu et cliquable pour aller directement au bon endroit du fichier)
 
@@ -73,12 +90,16 @@ Essayez de faire exécuter ces instructions :
 3 * 13
 3 * 13.0
 ```
-### 3.c. Deux trucs :
+### 3.c. Deux trucs : <- en faire une note? Je suis pas sur que ca mérite un titre.
 
  - pour aller vite dans le shell, on peut rappeler les instructions précédemment tapées en appuyant sur la flèche du haut
  - pour mettre un commentaire, il suffit de le précéder d'un #
 
 ### 3.d. Deux fonctions d'entrée / sortie :
+
+.. note: schéma entrée sortie? utilisateur <-> machine J'en ait un de fait.
+
+
  - `input()` permet de faire demander par Python à l'utilisateur de d'entrer quelque chose au clavier.
  - `print()` permet de demander à Python l'affichage de quelque chose.
 
