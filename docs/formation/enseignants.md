@@ -4,7 +4,7 @@ Ce document est utilisé pour former les collègues du lycée à l'utilisation d
 Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le language python.
 
 L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
-    
+
    - le language de programation
    - l'environnement de développement thonny utilisé au lycée
    - les librairies propres au lycée Diderot
@@ -41,14 +41,16 @@ print("hello world")
 print("hello world")
 "hello" + "world"
 ```
-Pour exécuter le fichier, il faut cliquer sur le bouton **run** (un triangle blanc dans un disque vert) ou appuyer sur **F5**.
+Pour exécuter le fichier, il faut cliquer sur le bouton |run|  ou appuyer sur **F5**.
 Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans : `USER/python`
+
+.. |run| image:: /source/_static/bouton_run.png
 
 ## 3. Quelques trucs sur python :
 
-.. image: https://www.python.org/static/img/python-logo-large.png
+.. image:: https://www.python.org/static/img/python-logo-large.png
     :align: right
-    :width: 200px
+    :width: 100px
 
 Python est un langage de programmation libre qui fonctionne sur toutes plate-formes (Windows, Mac, Linux, Android,…). Il à été créé au début des années 90 et baptisé en l’honneur de la série Monty Python's Flying Circus.
 
@@ -206,11 +208,12 @@ Lors de la vidéoprojection de thonny, les caractères sont trop petits. On peut
 
 - La config est enregistrée automatiquement quand on quitte thonny
 
+
 .. image:: https://thonny.org/img/variables.png
-  :align: right
+    :align: right
+    :width: 200px
 
- - Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
-
+- Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
 Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
 
 - Pour afficher les numéros des lignes :
@@ -255,7 +258,7 @@ Il suffit de se rendre sur https://pydiderot.readthedocs.io
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
 ## 7.b. un ou deux autres exemples d’activités à faire avec les élèves.
-traceur de courbes? 
+traceur de courbes?
 discriminant ?
 
 un peu plus de python : listes, boucles
