@@ -135,7 +135,7 @@ latex_elements = {
 
     # Latex figure (float) alignment
     #
-    # 'figure_align': 'htbp',
+     'figure_align': 'htbp',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -144,6 +144,8 @@ latex_elements = {
 latex_documents = [
     (master_doc, 'thonny.tex', 'thonny Documentation',
      'Professeurs du lycée Diderot', 'manual'),
+     ("formation/enseignants", 'formation.tex', 'formation',
+      'Professeurs du lycée Diderot', 'manual'),
 ]
 
 
