@@ -32,7 +32,7 @@ Quand on lance Thonny, il y a deux zones :
 ```python
 3 + 4
 print("hello world")
-"hello"+"world"
+"hello" + "world"
 ```
 ### Quelques exemples à enregistrer dans un fichier :
 ```python
@@ -159,18 +159,24 @@ La même chose avec un "while" au lieu du "for" (quel est le plus simple avec le
 from math import *
 from graphique import *
 creer_fenetre()
-i=0
-while i<101: #i va de 0 à 100
-    x = i / 10 - 5 #x va de -5 à 5
-    trace_point(x,cos(x))
-    i=i+1
+i = 0
+while i < 101:  # i va de 0 à 100
+    x = i / 10 - 5  # x va de -5 à 5
+    trace_point(x, cos(x))
+    i = i + 1
 ```
-
+Je propose cette version plus simple:
+```python
+from math import *
+from graphique import *
+creer_fenetre()
+x = -5
+while x < 5:  # x va de -5 à 5
+    trace_point(x, cos(x))
+    x = x + 0.1
+```
 ## 5. python avec les élèves : prise en main
 
-.. note::
-  est-il nécéssaure de redire où est enregistré le travail? 
-  OUI :)
 
  - Les élèves enregistrent leur travail dans le dossier `USER/python/`.
 
@@ -213,7 +219,7 @@ Ce qui peut marcher :
 - faire se lever tout le groupe, venir devant le tableau et parler avec le vidéo-projecteur
 - verrouiller tous les écrans (ça peut se faire avec le logiciel iTALC (il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
 
-..note::
+.. note::
    mettre une image de iTALC
 
 - envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
@@ -228,7 +234,7 @@ Il suffit de se rendre sur https://pydiderot.readthedocs.io
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
 ## 7.b. un ou deux autres exemples d’activités à faire avec les élèves.
-traceur de courbes?
+traceur de courbes? 
 discriminant ?
 
 un peu plus de python : listes, boucles
