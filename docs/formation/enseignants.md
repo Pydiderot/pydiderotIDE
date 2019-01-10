@@ -62,7 +62,7 @@ Les projets de [nouveaux programmes](http://cache.media.education.gouv.fr/file/C
 ### 3.a. Variable
 Une des difficulté principale pour les élèves au début (en seconde) est l'utilisation de variables.
 
-.. note: Proposer ici l'utilisation de "boites" comme aide didactique à la notion de variable?
+.. note:: Proposer ici l'utilisation de "boites" comme aide didactique à la notion de variable?
 
 Quelques lignes à tester :
 ```python
