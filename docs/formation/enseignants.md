@@ -1,11 +1,11 @@
 # Formation technique
 ## Quoi? pour qui?
 Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement python du lycée. Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation.pdf.
-Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le language python.
+Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le langage python.
 
 L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
 
-   - le language de programation
+   - le langage de programmation
    - l'environnement de développement thonny utilisé au lycée
    - les librairies propres au lycée Diderot
    - quelques constats pratiques d'ordre pédagogique.
@@ -26,7 +26,7 @@ Quand on lance Thonny, il y a deux zones :
 - la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hello.py")
 - la zone du bas qui est un **shell** : comme un écran de calculatrice, mais qui exécute des commandes Python (on ne peut pas l'enregistrer)(c'est dans cette zone qu'apparaissent les résultats des commandes exécutées depuis un fichier de la zone du haut)
 
-.. note: shell en francais c'est console non?
+.. note: shell en français c'est console non?
 
 ### Quelques instructions à essayer dans le shell :
 ```python
@@ -55,7 +55,7 @@ Python est un langage de programmation libre qui fonctionne sur toutes plate-for
 
 Épuré et lisible, Python est utilisé par de nombreuses entreprises et organisations (Google, NASA, …), dans la recherche scientifique et est enseigné au lycée, en prépa, et à l’université.
 
-Les projets de [nouveaux programmes](http://cache.media.education.gouv.fr/file/CSP/19/8/2de_Mathematiques_Enseignement_commun_1021198.pdf) précisent le choix de python comme langage de programation utilisé à partir de la seconde.
+Les projets de [nouveaux programmes](http://cache.media.education.gouv.fr/file/CSP/19/8/2de_Mathematiques_Enseignement_commun_1021198.pdf) précisent le choix de python comme langage de programmation utilisé à partir de la seconde.
 
 
 ### 3.a. Variable
@@ -92,7 +92,7 @@ Essayez de faire exécuter ces instructions :
 3 * 13
 3 * 13.0
 ```
-### 3.c. Deux trucs : <- en faire une note? Je suis pas sur que ca mérite un titre.
+### 3.c. Deux trucs : <- en faire une note? Je suis pas sur que ça mérite un titre.
 
  - pour aller vite dans le shell, on peut rappeler les instructions précédemment tapées en appuyant sur la flèche du haut
  - pour mettre un commentaire, il suffit de le précéder d'un #
@@ -115,7 +115,7 @@ type(a)
 ```
 ### 3.e. Retour sur les problèmes de typage : formule magique : ...=float(input(« ... »))
 
-Si vous avez essayé les lignes de code précédentes avec diverses entrées tapées au clvier, vous avez peut-être remarqué que quel que soit ce qu'on tape, Python considère que ce qui vient du `ìnput()` est du type `str`.
+Si vous avez essayé les lignes de code précédentes avec diverses entrées tapées au clavier, vous avez peut-être remarqué que quel que soit ce qu'on tape, Python considère que ce qui vient du `ìnput()` est du type `str`.
 
 Du coup, cela va sans cesse provoquer des erreurs dans les programmes des élèves. Un des moyens d'éviter cela est de leur donner la ligne de `input` sous la forme suivante :
 
@@ -212,7 +212,7 @@ Lors de la vidéoprojection de thonny, les caractères sont trop petits. On peut
     :align: right
     :width: 200px
 
-- Thony propose un affichage dynamique du contenu des variables qui peut être particulierement utile dans un cadre pédagogique.
+- Thony propose un affichage dynamique du contenu des variables qui peut être particulièrement utile dans un cadre pédagogique.
 Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
 
 - Pour afficher les numéros des lignes :
@@ -233,7 +233,7 @@ print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
 ```
 
 → exo : le refaire et l’améliorer en ajoutant de quoi afficher la distance AB
-→ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la librarie [entree_tk](/librairies/entree_tk)
+→ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk)
 
 ## 6. gestion salle info
 
@@ -246,7 +246,7 @@ Ce qui peut marcher :
 ![](https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/Capture_iTALC.PNG)
 
 - envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
- - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je vérrouille / déverrouille !)
+ - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je verrouille / déverrouille !)
 
 ## 7. un peu plus loin :
 ### 7.a
