@@ -100,11 +100,11 @@ Essayez de faire exécuter ces instructions :
 
 ### 3.d. Deux fonctions d'entrée / sortie :
 
-.. note: schéma entrée sortie? utilisateur <-> machine J'en ait un de fait.
+.. figure:: /source/_static/entrees_sorties.png
+    :align: center
 
-
- - `input()` permet de faire demander par Python à l'utilisateur de d'entrer quelque chose au clavier.
- - `print()` permet de demander à Python l'affichage de quelque chose.
+- `input()` permet de faire demander par Python à l'utilisateur de d'entrer quelque chose au clavier.
+- `print()` permet de demander à Python l'affichage de quelque chose.
 
 Essayez de faire exécuter ces instructions :
 ```python
