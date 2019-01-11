@@ -16,12 +16,11 @@ L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
 
 Logiciels > MATH > \_Maths > _RACCOURCIS MATH_ > Thonny python
 
-.. image:: https://thonny.org/img/get_started.png
-    :align: right
-    :width: 200px
 
 ## 2. Prise en main :
-
+.. figure:: https://thonny.org/img/get_started.png
+    :align: right
+    :width: 200px
 Quand on lance Thonny, il y a deux zones :
 
 - la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hello.py")
@@ -48,7 +47,7 @@ Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans :
 
 ## 3. Quelques trucs sur python :
 
-.. image:: https://www.python.org/static/img/python-logo-large.png
+.. figure:: https://www.python.org/static/img/python-logo-large.png
     :align: right
     :width: 100px
 
@@ -209,7 +208,7 @@ Lors de la vidéoprojection de thonny, les caractères sont trop petits. On peut
 - La config est enregistrée automatiquement quand on quitte thonny
 
 
-.. image:: https://thonny.org/img/variables.png
+.. figure:: https://thonny.org/img/variables.png
     :align: right
     :width: 200px
 
