@@ -12,11 +12,8 @@ L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
 
 
 
-## 1. Où se trouve le raccourci vers thonny
+## 2. Prise en main
 A partir du bureau des ordinateurs du lycée: `Logiciels > MATH > _Maths > _RACCOURCIS MATH_ > Thonny python`
-
-
-## 2. Prise en main :
 .. figure:: https://thonny.org/img/get_started.png
     :align: right
     :width: 200px
@@ -44,7 +41,7 @@ Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans :
 
 .. |run| image:: /source/_static/bouton_run.png
 
-## 3. Quelques trucs sur python :
+## 3. Quelques trucs sur python
 
 .. figure:: https://www.python.org/static/img/python-logo-large.png
     :align: right
@@ -60,8 +57,7 @@ Les projets de [nouveaux programmes](http://cache.media.education.gouv.fr/file/C
 ### 3.a. Variable
 Une des difficulté principale pour les élèves au début (en seconde) est l'utilisation de variables.
 
-.. note:: Proposer ici l'utilisation de "boites" comme aide didactique à la notion de variable?
-
+.. note:: Voir 5.b ci dessous
 Quelques lignes à tester :
 ```python
 x = 4
@@ -183,17 +179,6 @@ La même chose avec un "while" au lieu du "for" (quel est le plus simple avec le
 from math import *
 from graphique import *
 creer_fenetre()
-i = 0
-while i < 101:  # i va de 0 à 100
-    x = i / 10 - 5  # x va de -5 à 5
-    trace_point(x, cos(x))
-    i = i + 1
-```
-Je propose cette version plus simple:
-```python
-from math import *
-from graphique import *
-creer_fenetre()
 x = -5
 while x < 5:  # x va de -5 à 5
     trace_point(x, cos(x))
@@ -248,7 +233,35 @@ for x in range(10):
 
 print("Et voila!")
 ```
+### 5.d. Gestion salle info
+
+Ce qui ne marche pas : parler à un groupe d'élèves devant leur écran.
+
+Ce qui peut marcher :
+
+- faire se lever tout le groupe, venir devant le tableau et parler avec le vidéo-projecteur
+
+- verrouiller tous les écrans (ça peut se faire avec le logiciel iTALC (il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
+
+![](https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/Capture_iTALC.PNG)
+
+- envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
+
+ - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je verrouille / déverrouille !)
+
+
+## 7. un peu plus loin :
+### 7.a
+- comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
+Il suffit de se rendre sur https://pydiderot.readthedocs.io
+- comment peut-on demander à ajouter une fonction dans les librairies ?
+Ouvrir une issue sur https://github.com/cspaier/pydiderot
+
+## 7.b. un ou deux autres exemples d’activités à faire avec les élèves.
+
+
 ### 5.d -> utile?
+
 - exemple de programme :
 
 ```python
@@ -258,36 +271,13 @@ xB = float(input("Abscisse de B ? "))
 yB = float(input("Ordonnée de B ? "))
 xM = (xA + xB) / 2
 yM = (yA + yB) / 2
+
 print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
 ```
 
 → exo : le refaire et l’améliorer en ajoutant de quoi afficher la distance AB
 → on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk)
 
-## 6. gestion salle info
+pygame qui rebondit!
 
-Ce qui ne marche pas : parler à un groupe d'élèves devant leur écran.
 
-Ce qui peut marcher :
-- faire se lever tout le groupe, venir devant le tableau et parler avec le vidéo-projecteur
-- verrouiller tous les écrans (ça peut se faire avec le logiciel iTALC (il y a souvent un ou deux écrans qui ne se verrouillent pas !), donner les consignes, puis déverrouiller
-
-![](https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/Capture_iTALC.PNG)
-
-- envoyer son écran dans les écrans de tous les élèves (avec la commande "démo" du logiciel iTALC), parler en montrant à l'écran en même temps, puis arrêter la démo (les élèves sont encore bluffés par cette manip pour le moment :-)
- - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je verrouille / déverrouille !)
-
-## 7. un peu plus loin :
-### 7.a
-- comment envoyer du code aux élèves ? / comment récupérer du code qu’ils ont fait ?
-- comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
-Il suffit de se rendre sur https://pydiderot.readthedocs.io
-- comment peut-on demander à ajouter une fonction dans les librairies ?
-Ouvrir une issue sur https://github.com/cspaier/pydiderot
-
-## 7.b. un ou deux autres exemples d’activités à faire avec les élèves.
-traceur de courbes?
-discriminant ?
-
-un peu plus de python : listes, boucles
-Les listes sont-elles nécessaires?
