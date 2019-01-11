@@ -14,15 +14,15 @@ L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
 
 ## 2. Prise en main
 A partir du bureau des ordinateurs du lycée: `Logiciels > MATH > _Maths > _RACCOURCIS MATH_ > Thonny python`
+
 .. figure:: https://thonny.org/img/get_started.png
     :align: right
     :width: 200px
+
 Quand on lance Thonny, il y a deux zones :
 
 - la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hello.py")
 - la zone du bas qui est un **shell** : comme un écran de calculatrice, mais qui exécute des commandes Python (on ne peut pas l'enregistrer)(c'est dans cette zone qu'apparaissent les résultats des commandes exécutées depuis un fichier de la zone du haut)
-
-.. note: shell en français c'est console non?
 
 ### Quelques instructions à essayer dans le shell :
 ```python
@@ -279,5 +279,3 @@ print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
 → on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk)
 
 pygame qui rebondit!
-
-
