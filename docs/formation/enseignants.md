@@ -1,6 +1,6 @@
 # Formation technique
 ## Quoi? pour qui?
-Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement python du lycée.
+Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement python du lycée. Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation.pdf.
 Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le language python.
 
 L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
