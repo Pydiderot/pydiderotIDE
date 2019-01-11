@@ -13,8 +13,7 @@ L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
 
 
 ## 1. Où se trouve le raccourci vers thonny
-
-Logiciels > MATH > \_Maths > _RACCOURCIS MATH_ > Thonny python
+A partir du bureau des ordinateurs du lycée: `Logiciels > MATH > _Maths > _RACCOURCIS MATH_ > Thonny python`
 
 
 ## 2. Prise en main :
@@ -40,7 +39,7 @@ print("hello world")
 print("hello world")
 "hello" + "world"
 ```
-Pour exécuter le fichier, il faut cliquer sur le bouton |run|  ou appuyer sur **F5**.
+Pour exécuter le fichier, il faut cliquer sur le bouton |run|  ou appuyer sur :guilabel:`F5`.
 Il faut donner un nom au fichier. Le fichier sera sauvegardé par défaut dans : `USER/python`
 
 .. |run| image:: /source/_static/bouton_run.png
@@ -92,10 +91,12 @@ Essayez de faire exécuter ces instructions :
 3 * 13
 3 * 13.0
 ```
-### 3.c. Deux trucs : <- en faire une note? Je suis pas sur que ça mérite un titre.
 
+.. note::
  - pour aller vite dans le shell, on peut rappeler les instructions précédemment tapées en appuyant sur la flèche du haut
  - pour mettre un commentaire, il suffit de le précéder d'un #
+
+### 3.c Indentation
 
 ### 3.d. Deux fonctions d'entrée / sortie :
 
@@ -198,28 +199,56 @@ while x < 5:  # x va de -5 à 5
     trace_point(x, cos(x))
     x = x + 0.1
 ```
-## 5. python avec les élèves : prise en main
+## 5. Python avec les élèves
 
+### 5.a Prise en main
+Voici quelques remarques que nous espérons utiles:
 
  - Les élèves enregistrent leur travail dans le dossier `USER/python/`.
+ - Lors de la vidéoprojection de thonny, les caractères sont trop petits. On peut utiliser :guilabel:`ctrl` + :guilabel:`+` ou :guilabel:`ctrl` +  :guilabel:`molette` pour zoomer.
+ - La config est enregistrée automatiquement quand on quitte thonny.
+ - Pour afficher les numéros des lignes: :guilabel:`Tools` → :guilabel:`Otions` → :guilabel:`Editor` → :guilabel:`Show lines numbers`
 
-Lors de la vidéoprojection de thonny, les caractères sont trop petits. On peut utiliser ctrl +/ crl molette pour zoomer
+### 5.b Variables
 
-- La config est enregistrée automatiquement quand on quitte thonny
+Comme annoncé plus haut, la notion de variable informatique n'est pas du tout évidente à appréhender pour les élèves.
 
+Il peut être bon d'expliquer que concrètement, à chaque nouvelle variable `x`, la machine va créer un espace dans la mémoire vive étiquetée par le nom de la variable (`x`). Cela peut être représenté par une boite. Nous pouvons ensuite lire le contenu de la boite avec `print(x)` et changer ce qu'elle contient avec `x = 3`.
 
 .. figure:: https://thonny.org/img/variables.png
     :align: right
     :width: 200px
 
-- Thony propose un affichage dynamique du contenu des variables qui peut être particulièrement utile dans un cadre pédagogique.
+Thonny propose un affichage dynamique du contenu des variables accessible dans le menu :guilabel:`View` → :guilabel:`Variables` qui peut être particulièrement utile dans un cadre pédagogique.
+
 Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, l'onglet affichera le contenu de toutes les fonctions et variables importées ce qui peut ralentir considérablement l'utilisation.
 
-- Pour afficher les numéros des lignes :
-tools > options > show lines numbers
 
-- debug et les différents types de « pas à pas »
+### 5.c Debug et les différents types de « pas à pas »
 
+Thonny propose un mode débug accessible avec le bouton |bouton_debug| ou les touches :guilabel:`crtl` + :guilabel:`F5`  qui permet l'éxécution du script en mode « pas à pas ». Cela activera le menu debug :|menu_debug|
+
+- |bouton_step_over| ou :guilabel:`F6`: Passe au bloc suivant sans rentrer en détail dans le bloc.
+- |bouton_step_into| ou :guilabel:`F7`: Rentre dans le bloc sélectionné pour en voir les détails.
+- |bouton_step_out| : Sort du bloc sélectionné en remontant vers le bloc parent.
+- |bouton_resume| ou :guilabel:`F8`: Quitte le mode débug et reprend l’exécution du script.
+
+.. |bouton_debug| image:: /source/_static/bouton_debug.png
+.. |menu_debug| image:: /source/_static/menu_debug.png
+.. |bouton_step_over| image:: /source/_static/bouton_step_over.png
+.. |bouton_step_into| image:: /source/_static/bouton_step_into.png
+.. |bouton_resume| image:: /source/_static/bouton_resume.png
+.. |bouton_step_out| image:: /source/_static/bouton_step_out.png
+
+Voici par exemple un programme affichant la table de multiplication par 7 dont la vidéoprojection en mode débug peut avantageusement illustrer le fonctionnement d'une boucle et des variables:
+```python
+for x in range(10):
+    y = 7 * x
+    print(y)
+
+print("Et voila!")
+```
+### 5.d -> utile?
 - exemple de programme :
 
 ```python
