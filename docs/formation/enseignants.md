@@ -13,11 +13,11 @@ L'objectif est d'introduire, à l'aide d'exemples et d'exercices:
 
 
 ## 2. Prise en main
-A partir du bureau des ordinateurs du lycée: `Logiciels > MATH > _Maths > _RACCOURCIS MATH_ > Thonny python`
-
 .. figure:: https://thonny.org/img/get_started.png
     :align: right
     :width: 200px
+
+A partir du bureau des ordinateurs du lycée: `Logiciels > MATH > _Maths > _RACCOURCIS MATH_ > Thonny python`
 
 Quand on lance Thonny, il y a deux zones :
 
@@ -64,6 +64,7 @@ x = 4
 y = x + 1
 print(y)
 ```
+
 ### 3.b. Typage et ce que provoque l’absence de typage
 Les variables peuvent être de différents types : par exemple "entier" `int` ou "chaîne de caractères (texte)" `str` ou encore "nombre à virgule flottante" `float`.
 
@@ -73,7 +74,7 @@ Si Python ne sait pas trop quel est le type d'une variable, il essaye de faire u
 
 Les messages d'erreur apparaissent en rouge dans le shell. Même s'ils sont indigestes, il faut expliquer aux élèves que dans un message d'erreur il y a deux informations très utiles :
 
-.. note: printscreen d'erreur?
+.. note:: printscreen d'erreur?
 
  - une explication sur l'erreur (par exemple le mot-clé "typeError" signale qu'il s'agit d'une erreur de typage)
  - la ligne du fichier où l'erreur a été rencontrée (en bleu et cliquable pour aller directement au bon endroit du fichier)
@@ -92,9 +93,8 @@ Essayez de faire exécuter ces instructions :
  - pour aller vite dans le shell, on peut rappeler les instructions précédemment tapées en appuyant sur la flèche du haut
  - pour mettre un commentaire, il suffit de le précéder d'un #
 
-### 3.c Indentation
 
-### 3.d. Deux fonctions d'entrée / sortie :
+### 3.c. Deux fonctions d'entrée / sortie :
 
 .. figure:: /source/_static/entrees_sorties.png
     :align: center
@@ -122,6 +122,38 @@ a = float(input("tapez quelque chose"))
 `a` sera alors automatiquement du type "nombre à virgule flottante", ce qui est en général ce qu'on veut.
 
 Exercice: Demander deux nombres à l'utilisateur et afficher leur produit.
+
+### 3.d Indentation
+
+Pour signaler le début et la fin de blocs de code, on utilise l'indentation.
+
+```python
+
+print("Bonjour!")
+
+for x in range(10):
+    # début du sous-block for
+    print(x)
+
+# Nous sommes sortis du sous-bloc "for"
+print("C'est fini.")
+```
+
+```python
+
+print("Bonjour!")
+
+for x in range(10):
+    # début du sous-block "for"
+    print(x)
+    # Nous sommes toujours dans le bloc "for"
+    print("C'est pas fini.")
+
+# Nous sommes sortis du sous-bloc "for"
+print("C'est fini.")
+```
+.. note::
+  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir 5.c).
 
 ## 4. Librairies :
 ### 4.a. Généralités :

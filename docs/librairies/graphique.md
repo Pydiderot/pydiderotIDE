@@ -14,7 +14,7 @@
 
 ```python
 # On importe la librairie
-from graph_dynamique import *
+from graphique import *
 # Nous aurons également de la librairie time
 import time
 
