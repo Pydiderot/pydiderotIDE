@@ -1,4 +1,5 @@
 # Repere
+:download:`repere.py </../Thonny/Lib/site-packages/repere.py>`
 ## A propos
 Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/repere.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 

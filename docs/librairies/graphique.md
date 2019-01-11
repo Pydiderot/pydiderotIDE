@@ -2,15 +2,18 @@
 
 ## A propos
 
- Cette librairie permet l'affichage d'une fenêtre graphique dynamique et fournie des fonctions permettant d'y afficher des objets géométriques simples (point, cercle, segment, vecteur, rectangle).
+:download:`graphique.py </../Thonny/Lib/site-packages/graphique.py>`
 
- Basée sur pygame, vous pouvez également récupérer les événements clavier ou souris pour interagir avec l'utilisateur.
+Cette librairie permet l'affichage d'une fenêtre graphique dynamique et fournie des fonctions permettant d'y afficher des objets géométriques simples (point, cercle, segment, vecteur, rectangle).
 
- Vous pouvez, par exemple, l'utiliser pour construire un jeux de type pong.
+Basée sur pygame, vous pouvez également récupérer les événements clavier ou souris pour interagir avec l'utilisateur.
 
- ## Utilisation
+Vous pouvez, par exemple, l'utiliser pour construire un jeux de type pong.
 
- Voici un exemple qui affiche une fenêtre graphique traversée en diagonale par un point.
+
+## Utilisation
+
+Voici un exemple qui affiche une fenêtre graphique traversée en diagonale par un point.
 
 ```python
 # On importe la librairie
