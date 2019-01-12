@@ -291,9 +291,9 @@ Il suffit de se rendre sur https://pydiderot.readthedocs.io
 - comment peut-on demander à ajouter une fonction dans les librairies ?
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
-## 7.b. Exemples d'activités
+### 7.b. Exemples d'activités
 
-1. Le milieu
+#### 7.b.1 Le milieu
 
 ```python
 xA = float(input("Abscisse de A ? "))
@@ -310,7 +310,7 @@ __exo__ : le refaire et l’améliorer en ajoutant de quoi afficher la distance 
 
 __Remarque__ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk).
 
-2. Ca bouge!
+#### 7.b.2 Ca bouge!
 
 Voici un exemple utilisant la librairie [graphique](/librairies/graphique/) où une balle traverse l'écran en diagonale.
 
