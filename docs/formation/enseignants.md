@@ -74,10 +74,11 @@ Si Python ne sait pas trop quel est le type d'une variable, il essaye de faire u
 
 Les messages d'erreur apparaissent en rouge dans le shell. Même s'ils sont indigestes, il faut expliquer aux élèves que dans un message d'erreur il y a deux informations très utiles :
 
-.. note:: printscreen d'erreur?
+.. note::
+   printscreen d'erreur?
 
- - une explication sur l'erreur (par exemple le mot-clé "typeError" signale qu'il s'agit d'une erreur de typage)
- - la ligne du fichier où l'erreur a été rencontrée (en bleu et cliquable pour aller directement au bon endroit du fichier)
+- une explication sur l'erreur (par exemple le mot-clé "typeError" signale qu'il s'agit d'une erreur de typage)
+- la ligne du fichier où l'erreur a été rencontrée (en bleu et cliquable pour aller directement au bon endroit du fichier)
 
 Essayez de faire exécuter ces instructions :
 ```python
@@ -283,18 +284,16 @@ Ce qui peut marcher :
 
 
 ## 7. un peu plus loin :
-### 7.a
+### 7.a Questions fréquentes
 - comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
 Il suffit de se rendre sur https://pydiderot.readthedocs.io
+
 - comment peut-on demander à ajouter une fonction dans les librairies ?
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
-## 7.b. un ou deux autres exemples d’activités à faire avec les élèves.
+## 7.b. Exemples d'activités
 
-
-### 5.d -> utile?
-
-- exemple de programme :
+1. Le milieu
 
 ```python
 xA = float(input("Abscisse de A ? "))
@@ -307,7 +306,45 @@ yM = (yA + yB) / 2
 print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
 ```
 
-→ exo : le refaire et l’améliorer en ajoutant de quoi afficher la distance AB
-→ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk)
+__exo__ : le refaire et l’améliorer en ajoutant de quoi afficher la distance AB
 
-pygame qui rebondit!
+__Remarque__ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk).
+
+2. Ca bouge!
+
+Voici un exemple utilisant la librairie [graphique](/librairies/graphique/) où une balle traverse l'écran en diagonale.
+
+```python
+# On importe la librairie
+from graphique import *
+# Nous aurons également de la librairie time
+import time
+
+# On initialise les coordonnées du point au coin haut gauche de la fenêtre
+x = 0
+y = 0
+# On initialise les coordonnées du vecteur vitesse
+v_x = 1
+v_y = 1
+
+# On créé la fenêtre graphique de taille 200 x 300
+creer_fenetre()
+
+# Boucle principale
+while 1:
+    # Il est important d’appeler  la fonction evenements() qui gère la fermeture de la fenêtre
+    evenements()
+
+    # Trace un cercle au coordonnées (x,y)
+    trace_cercle(x, y)
+    # Attend un dixième de secondes
+    time.sleep(0.1)
+    # Efface le cercle
+    trace_cercle(x, y, couleur=blanc)
+    # Ajoute le vecteur vitesse aux coordonnées du point
+    x += v_x
+    y += v_y
+```
+a. Modifier le code pour que la balle traverse l'autre diagonale.
+b. Faire en sorte que la balle rebondisse sur les bords de l'écran.
+c. Faire en sorte que l'utilisateur déplace la balle avec la sourie ou l'écran. On pourra faire un `print(evenements())` pour explorer la gestion des évenements.
