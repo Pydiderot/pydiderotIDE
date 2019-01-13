@@ -1,5 +1,5 @@
 # Formation technique
-## Quoi? pour qui?
+## 1.Quoi? pour qui?
 Ce document est utilisé pour former les collègues du lycée à l'utilisation de l'environnement python du lycée. Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation.pdf.
 Il est à destination des professeurs n'ayant pas ou peu de connaissances sur le langage python.
 
@@ -57,7 +57,8 @@ Les projets de [nouveaux programmes](http://cache.media.education.gouv.fr/file/C
 ### 3.a. Variable
 Une des difficulté principale pour les élèves au début (en seconde) est l'utilisation de variables.
 
-.. note:: Voir 5.b ci dessous
+.. note:: Voir `5.b <#b-variables>`_ ci dessous pour des remarques concernant des outils pédagogiques à la notion de variable.
+
 Quelques lignes à tester :
 ```python
 x = 4
@@ -74,8 +75,6 @@ Si Python ne sait pas trop quel est le type d'une variable, il essaye de faire u
 
 Les messages d'erreur apparaissent en rouge dans le shell. Même s'ils sont indigestes, il faut expliquer aux élèves que dans un message d'erreur il y a deux informations très utiles :
 
-.. note::
-   printscreen d'erreur?
 
 - une explication sur l'erreur (par exemple le mot-clé "typeError" signale qu'il s'agit d'une erreur de typage)
 - la ligne du fichier où l'erreur a été rencontrée (en bleu et cliquable pour aller directement au bon endroit du fichier)
@@ -126,7 +125,7 @@ Exercice: Demander deux nombres à l'utilisateur et afficher leur produit.
 
 ### 3.d Indentation
 
-Pour signaler le début et la fin de blocs de code, on utilise l'indentation.
+Pour signaler le début et la fin de blocs de code, on utilise l'indentation. Une indentation correspond à 4 espaces.
 
 ```python
 
@@ -154,7 +153,7 @@ for x in range(10):
 print("C'est fini.")
 ```
 .. note::
-  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir 5.c).
+  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir `5.c <#c-debug-et-les-differents-types-de-pas-a-pas>`_ .
 
 ## 4. Librairies :
 ### 4.a. Généralités :
@@ -283,17 +282,19 @@ Ce qui peut marcher :
  - annoncer au groupe "je vais vous envoyer l'écran de -nom d'élève-" (avec la commande clic droit > "laisser faire une démo" du logiciel iTALC), laisser l'élève faire sa démo (en l'incitant à parler de façon compréhensible), puis arrêter la démo (je ne sais pas comment faire alors je verrouille / déverrouille !)
 
 
-## 7. un peu plus loin :
+## 6. un peu plus loin :
 ### 7.a Questions fréquentes
 - comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
+
 Il suffit de se rendre sur https://pydiderot.readthedocs.io
 
 - comment peut-on demander à ajouter une fonction dans les librairies ?
+
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
 ### 7.b. Exemples d'activités
 
-#### 7.b.1 Le milieu
+#### Le milieu
 
 ```python
 xA = float(input("Abscisse de A ? "))
@@ -310,7 +311,7 @@ __exo__ : le refaire et l’améliorer en ajoutant de quoi afficher la distance 
 
 __Remarque__ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk).
 
-#### 7.b.2 Ca bouge!
+#### Ca bouge!
 
 Voici un exemple utilisant la librairie [graphique](/librairies/graphique/) où une balle traverse l'écran en diagonale.
 
@@ -347,4 +348,4 @@ while 1:
 ```
 a. Modifier le code pour que la balle traverse l'autre diagonale.
 b. Faire en sorte que la balle rebondisse sur les bords de l'écran.
-c. Faire en sorte que l'utilisateur déplace la balle avec la sourie ou l'écran. On pourra faire un `print(evenements())` pour explorer la gestion des évenements.
+c. Faire en sorte que l'utilisateur déplace la balle avec la sourie ou l'écran. On pourra faire un `print(evenements())` pour explorer la gestion des événements.
