@@ -61,7 +61,8 @@ trace_point(5,5,couleur='blue',taille=5)
 affiche_fenetre()
 ```
 
-Par contre cela limite l'utilisation de cette librairie à une unique instance de l’objet `fenetre`. Limitation raisonnable dans un cadre pédagogique. Faux, contre exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).   
+.. note::
+    L'utilisation de cette librairie n'est pas limitée à une unique instance de l’objet `fenetre`. Voici un exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).
 
 ## Documentation
 
