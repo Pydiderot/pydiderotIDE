@@ -49,7 +49,7 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 
 Les modifications effectuées par l'équipe de math sont:
 
-- Ajout des librairies [pygame 1.9.4](https://www.pygame.org/), [scipy 1.2.0](https://www.scipy.org/), [numpy 1.16.0rc2](http://www.numpy.org/), [matplotlib 3.0.2](https://matplotlib.org/).
+- Ajout de la librairie [pygame 1.9.4](https://www.pygame.org/).
 
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
