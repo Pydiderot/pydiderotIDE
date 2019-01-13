@@ -52,7 +52,7 @@ Les modifications effectuées par l'équipe de math sont:
 - Ajout des librairies [pygame 1.9.4](https://www.pygame.org/), [scipy 1.2.0](https://www.scipy.org/), [numpy 1.15.4](http://www.numpy.org/), [matplotlib 3.0.2](https://matplotlib.org/).
 
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
-- [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
+- [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environnement python du frontend.
 - [workbench.py](https://github.com/cspaier/thonny/blob/f1c57d3062d60841dea3bdf7e2af93243cd742c9/Thonny/Lib/site-packages/thonny/workbench.py#L205-L208): Le dossier de travail est `%HOMESHARE%/python/`
 
 À ce jour, les modifications permettent de travailler sous Windows©.
