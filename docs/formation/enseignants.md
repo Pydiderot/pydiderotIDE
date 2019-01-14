@@ -153,7 +153,7 @@ for x in range(10):
 print("C'est fini.")
 ```
 .. note::
-  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir `5.c <#c-debug-et-les-differents-types-de-pas-a-pas>`_).
+  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir `5.c <#c-debug-et-les-differents-types-de-pas-a-pas>`_ ).
 
 ## 4. Librairies :
 ### 4.a. Généralités :
@@ -230,7 +230,7 @@ Voici quelques remarques que nous espérons utiles:
 
 Comme annoncé plus haut, la notion de variable informatique n'est pas du tout évidente à appréhender pour les élèves.
 
-Il peut être bon d'expliquer que concrètement, à chaque nouvelle variable `x`, la machine va créer un espace dans la mémoire vive étiquetée par le nom de la variable (`x`). Cela peut être représenté par une boite. Nous pouvons ensuite lire le contenu de la boite avec `print(x)` et changer ce qu'elle contient avec `x = 3`.
+Il peut être bon d'expliquer que concrètement, à chaque nouvelle variable `x`, la machine va créer un espace (une boite) dans la mémoire vive étiquetée par le nom de la variable (`x`). Nous pouvons ensuite lire le contenu de la boite avec `print(x)` et changer ce qu'elle contient avec `x = 3`.
 
 .. figure:: https://thonny.org/img/variables.png
     :align: right
