@@ -110,7 +110,7 @@ a
 print(a)
 type(a)
 ```
-### 3.e. Retour sur les problèmes de typage : formule magique : ...=float(input(« ... »))
+### 3.e. Retour sur les problèmes de typage : formule magique
 
 Si vous avez essayé les lignes de code précédentes avec diverses entrées tapées au clavier, vous avez peut-être remarqué que quel que soit ce qu'on tape, Python considère que ce qui vient du `ìnput()` est du type `str`.
 
@@ -153,7 +153,7 @@ for x in range(10):
 print("C'est fini.")
 ```
 .. note::
-  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir `5.c <#c-debug-et-les-differents-types-de-pas-a-pas>`_ .
+  L'utilisation du mode "pas à pas" de thonny peut aider à illustrer cette notion (voir `5.c <#c-debug-et-les-differents-types-de-pas-a-pas>`_).
 
 ## 4. Librairies :
 ### 4.a. Généralités :
@@ -283,7 +283,7 @@ Ce qui peut marcher :
 
 
 ## 6. un peu plus loin :
-### 7.a Questions fréquentes
+### 6.a Questions fréquentes
 - comment peut-on (les élèves ou nous) télécharger thonny pour chez nous ?
 
 Il suffit de se rendre sur https://pydiderot.readthedocs.io
@@ -292,7 +292,7 @@ Il suffit de se rendre sur https://pydiderot.readthedocs.io
 
 Ouvrir une issue sur https://github.com/cspaier/pydiderot
 
-### 7.b. Exemples d'activités
+### 6.b. Exemples d'activités
 
 #### Le milieu
 
