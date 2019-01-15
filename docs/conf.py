@@ -14,7 +14,9 @@
 #
 import os
 import sys
+import zipfile
 
+sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib'))
 sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib', 'site-packages'))
 
 # -- Project information -----------------------------------------------------
@@ -140,8 +142,10 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'thonny.tex', 'thonny Documentation',
-     'cspaier', 'manual'),
+    (master_doc, 'pydiderot.tex', "Documentation de l'environement python du lycée Diderot",
+     'Professeurs du lycée Diderot', 'manual'),
+     ("formation/enseignants", 'formation.tex', 'Formation enseignants',
+      'Professeurs du lycée Diderot', 'manual'),
 ]
 
 
@@ -161,8 +165,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'thonny', 'thonny Documentation',
-     author, 'thonny', 'One line description of project.',
+    (master_doc, 'pydiderot', 'pydiderot Documentation',
+     author, 'pydiderot', 'Environement python du lycée diderot',
      'Miscellaneous'),
 ]
 
@@ -191,3 +195,45 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+# -- On zip nos libs ---------------------------------------
+
+# Liste des fichiers à zipper
+# les fichiers doivent se trouver dans THonny/Lib/site-packages
+fichiers = [
+    'entree_tk',
+    'graphique',
+    'repere',
+    'lycee',
+    'listes',
+    'stats_proba',
+    'TestLibrairies',
+    'trigo',
+    'vecteurs',
+    'arithmetique',
+    'chaines',
+    'fonctions_usuelles',
+]
+# On ajoute ".py" à la fin des fichiers
+fichiers = list(map(lambda x: x + ".py", fichiers))
+
+# On stocke le chemin du dossier courant
+chemin_courant = os.path.dirname(os.path.realpath(__file__))
+# chemin relatif contenant les fichiers à zipper
+chemin = os.path.join(os.path.dirname(__name__), '..', '..', '..', 'Thonny', 'Lib', 'site-packages')
+# On se place dans le dossier des fichiers statiques
+os.chdir(html_static_path[0])
+
+# On test si le zip et présent et on le supprime éventuellement
+if os.path.isfile('diderot.zip'):
+    os.remove('diderot.zip')
+
+# On créé le zip
+zip = zipfile.ZipFile('diderot.zip', 'a')
+# On ajoute les fichiers
+for fichier in fichiers:
+    zip.write(os.path.join(chemin, fichier), arcname=fichier)
+# On ferme le zip
+zip.close()
+# On se replace dans le dossier courant
+os.chdir(chemin_courant)

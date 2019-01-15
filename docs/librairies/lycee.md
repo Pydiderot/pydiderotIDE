@@ -32,6 +32,11 @@ from lycee import *
     :members:
     :member-order: bysource
 
+### Vecteurs
+.. automodule:: vecteurs
+    :members:
+    :member-order: bysource
+
 ### Listes
 
 .. automodule:: listes

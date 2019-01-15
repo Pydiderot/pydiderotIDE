@@ -1,69 +1,54 @@
 # Graphique
+
 ## A propos
-Cette [bibliothèque](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/graphique.py) facilite l'affichage d'une fenêtre munie d'un repère interactif (zoom, déplacement). Des fonctions sont disponibles pour tracer des objets géométriques simples.
 
-C'est une Version légèrement modifiée de [cette librairie](https://www.pedagogie.ac-aix-marseille.fr/jcms/c_122350/fr/ressources-graphiques-pour-python) écrite par Olivier Brebant en 2011 et publié par l'académie d'Aix-Marseille en 2012, sous licence MIT depuis novembre 2018.
+:download:`graphique.py </../Thonny/Lib/site-packages/graphique.py>`
 
+Cette librairie permet l'affichage d'une fenêtre graphique dynamique et fournie des fonctions permettant d'y afficher des objets géométriques simples (point, cercle, segment, vecteur, rectangle).
 
-## A quoi ca sert?
-A tracer un graphique **non dynamique** muni (ou non) d'un repère.
-On peut par exemple construire facilement un [traceur de courbes](https://gist.github.com/cspaier/3c67ddb66218ee53e7deaef6a61aeb8a).
+Basée sur pygame, vous pouvez également récupérer les événements clavier ou souris pour interagir avec l'utilisateur.
 
-Par non dynamique, j’entends qu'on ne peut pas facilement utiliser cette librairie pour interagir directement avec les objets. Par exemple cette librairie n'est pas adaptée au codage d'un jeu de type pong ou même d'un objet en mouvement.
+Vous pouvez, par exemple, l'utiliser pour construire un jeux de type pong.
 
 
-## Comment l'utiliser
+## Utilisation
+
+Voici un exemple qui affiche une fenêtre graphique traversée en diagonale par un point.
 
 ```python
 # On importe la librairie
 from graphique import *
+# Nous aurons également de la librairie time
+import time
 
-# On initialise la fenetre
+# On initialise les coordonnées du point au coin haut gauche de la fenêtre
+x = 0
+y = 0
+# On initialise les coordonnées du vecteur vitesse
+v_x = 1
+v_y = 1
+
+# On créé la fenêtre graphique
 creer_fenetre()
 
-# On créé des objects geométriques
-trace_point(5,3)
-trace_segment(-10,-4,8,7,couleur='red', taille = 2)
-trace_rectangle(1,1,8,4,couleur='black', taille = 4, remplissage='yellow')
-trace_point(5,5,couleur='blue',taille=5)
-trace_point(6,7,couleur='blue',taille=5,forme='croix')
-trace_texte(-3,3,"Un texte",couleur = 'blue')
+# Boucle principale
+while 1:
+    # Il est important d’appeler  la fonction evenements() qui gère la fermeture de la fenêtre
+    evenements()
 
-# On affiche la fenetre
-affiche_graphique()
+    # Trace un cercle au coordonnées (x,y)
+    trace_cercle(x, y)
+    # Attend un dixième de secondes
+    time.sleep(0.1)
+    # Efface le cercle
+    trace_cercle(x, y, couleur=blanc)
+    # Ajoute le vecteur vitesse aux coordonnées du point
+    x += v_x
+    y += v_y
 ```
 
-
-.. note::
-    Il faut désactiver `l'affichage de variables </#affichage-des-variables>`_  dans thonny pour pouvoir utiliser cette librairie.
-
-
-
-
-## Techniquement
-
-Le coté non dynamique mentionné plus haut vient de l'utilisation de Tkinter. C'est [techniquement possible](https://stackoverflow.com/questions/459083/how-do-you-run-your-own-code-alongside-tkinters-event-loop) avec la méthode [after](http://effbot.org/tkinterbook/widget.htm#Tkinter.Widget.after-method) mais pas réaliste dans un cadre pédagogique.
-
-La principale modification par rapport à la version de Olivier Brebant est de créer une variable globale `fenetre`.
-Cela simplifie l'utilisation pour les $E = mc^2$ élèves auquel on cache le coté méthodes et attributs de la programmation orientée objet. Concrètement, on passe d'une utilisation:
-
-```python
-fen = creer_fenetre()
-fen.trace_point(5,5,couleur='blue',taille=5)
-fen.loop()
-```
-
-à
-```python
-creer_fenetre()
-trace_point(5,5,couleur='blue',taille=5)
-affiche_fenetre()
-```
-
-Par contre cela limite l'utilisation de cette librairie à une unique instance de l’objet `fenetre`. Limitation raisonnable dans un cadre pédagogique. Faux, contre exemple avec  [2fenetresEnMemeTemps.py](https://gist.github.com/al-coloic/c158ed66dd2b627049f5ad2562355fa7).   
 
 ## Documentation
-
 
 .. automodule:: graphique
     :members:

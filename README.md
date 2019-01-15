@@ -3,7 +3,7 @@
 Ce répertoire contient l'environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépot [github](https://github.com/cspaier/thonny).
 
 ## Documentation
-La documentation (en cours de construction) est disponible [ici](https://thonny.readthedocs.io/).
+La documentation (en cours de construction) est disponible [ici](https://pydiderot.readthedocs.io/).
 
 ## Environnement
 Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
@@ -40,7 +40,7 @@ Son utilisation n'est **pas compatible avec l'import de librairies**. En effet, 
 ## Librairies
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
 
-- [graphique](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
+- [repere](/librairies/graphique/): Permet l'affichage d'un repère du plan intéractif (zoom, déplacer).
 - [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
 - [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
 
@@ -49,7 +49,7 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 
 Les modifications effectuées par l'équipe de math sont:
 
-- Ajout des librairies [pygame 1.9.4](https://www.pygame.org/), [scipy 1.2.0](https://www.scipy.org/), [numpy 1.15.4](http://www.numpy.org/), [matplotlib 3.0.2](https://matplotlib.org/).
+- Ajout de la librairie [pygame 1.9.4](https://www.pygame.org/).
 
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environement python du frontend.
@@ -69,3 +69,4 @@ Télécharger le dossier compréssé en zip avec ce [lien](https://github.com/cs
 ## Les versions
 - La branche **Diderot**: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
 - La branche **dev**: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
+- La branche **thonny-2.17.0** contient la version 2.17.0 de thonny utilisée au lycée jusqu'à janvier 2019.

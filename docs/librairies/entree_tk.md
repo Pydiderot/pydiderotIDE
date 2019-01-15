@@ -1,5 +1,7 @@
 # Entree_tk
 ## A propos
+:download:`entree_tk.py </../Thonny/Lib/site-packages/entree_tk.py>`
+
 Cette librairie fournie des fonctions d'entrées utilisateur affichant une fenêtre avec un champ de saisie texte. Le code est disponible [ici](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/entree_tk.py).
 
 Nous constatons qu'un utilisateur peu expérimenté peut être surpris par l'invite d'entrée peu interactive de la console python et proposons cette librairie comme solution.
