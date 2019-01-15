@@ -199,7 +199,7 @@ Un autre exemple, plus élaboré :
 
 ```python
 from math import *
-from graphique import *
+from repere import *
 creer_fenetre()
 for i in range(100): #i va de 0 à 100
     x = i / 10 - 5 #x va de -5 à 5
@@ -209,7 +209,7 @@ La même chose avec un "while" au lieu du "for" (quel est le plus simple avec le
 
 ```python
 from math import *
-from graphique import *
+from repere import *
 creer_fenetre()
 x = -5
 while x < 5:  # x va de -5 à 5

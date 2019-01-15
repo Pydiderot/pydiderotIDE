@@ -43,13 +43,14 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 - [repere](/librairies/graphique/): Permet l'affichage d'un repère du plan interactif (zoom, déplacer).
 - [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
 - [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
+- [graphique](/librairies/graphique): Permet l'affichage d'une fenêtre graphique dynamique et une gestion simplifiée des entrées clavier et souris.
 
 
 ## Quoi de neuf?
 
 Les modifications effectuées par l'équipe de math sont:
 
-- Ajout des librairies [pygame 1.9.4](https://www.pygame.org/).
+- Ajout de la librairies [pygame 1.9.4](https://www.pygame.org/).
 
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environnement python du frontend.

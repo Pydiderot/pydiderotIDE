@@ -14,7 +14,6 @@ Par non dynamique, j’entends qu'on ne peut pas facilement utiliser cette libra
 
 
 ## Comment l'utiliser
-
 ```python
 # On importe la librairie
 from repere import *
@@ -33,6 +32,16 @@ trace_texte(-3,3,"Un texte",couleur = 'blue')
 # On affiche la fenetre
 affiche_graphique()
 ```
+
+On peut agir sur le repère grâce à la souris:
+
+- La :guilabel:`roulette` de la souris:
+  - Si le curseur est proche d’un axe, modifie l’échelle uniquement pour cet axe.
+  - Sinon zoome/dézoome par rapport à la position courante du curseur
+- Un :guilabel:`Cliquer-glisser`:
+  - Si le curseur est proche d’un axe, translate le repère suivant cet axe.
+  - Sinon déplace le repère suivant le mouvement libre de la souris.
+- Un :guilabel:`double clic` rend le repère orthonormé en se basant sur l’axe des abscisses.
 
 
 .. note::
