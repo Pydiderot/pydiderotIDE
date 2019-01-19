@@ -38,7 +38,7 @@ while 1:
     # Attend un dixième de secondes
     sleep(0.1)
     # Efface le cercle
-    trace_cercle(x, y, couleur=blanc)
+    trace_cercle(x, y, couleur='blanc')
     # Ajoute le vecteur vitesse aux coordonnées du point
     x += 1
     y += 1
@@ -47,7 +47,7 @@ while 1:
   Il est important d’appeler la fonction `demande_evenements() <#graphique.demande_evenements>`_ qui gère la fermeture de la fenêtre
 
 ## Événements
-La fonction [demande_evenements()](#graphique.evenements) permet une gestion simplifiée des entrées clavier et souris de l'utilisateur.
+La fonction [demande_evenements()](#graphique.demande_evenements) permet une gestion simplifiée des entrées clavier et souris de l'utilisateur.
 
 Elle retourne un dictionnaire contenant les touches pressées, les clics et déplacement souris.
 
@@ -96,6 +96,9 @@ while 1:
         # ici evenements['clic'] est une liste [x, y]
         print('clic aux coordonées ' + str(evenements['clic']))
 ```
+
+## couleurs
+TODO
 
 ## Documentation
 

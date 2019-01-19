@@ -23,14 +23,11 @@ creer_fenetre()
 
 # On créé des objects geométriques
 trace_point(5,3)
-trace_segment(-10,-4,8,7,couleur='red', taille = 2)
-trace_rectangle(1,1,8,4,couleur='black', taille = 4, remplissage='yellow')
-trace_point(5,5,couleur='blue',taille=5)
-trace_point(6,7,couleur='blue',taille=5,forme='croix')
-trace_texte(-3,3,"Un texte",couleur = 'blue')
-
-# On affiche la fenetre
-affiche_graphique()
+trace_segment(-10,-4,8,7,couleur='rouge', taille = 2)
+trace_rectangle(1,1,8,4,couleur='noir', taille = 4, remplissage='jaune')
+trace_point(5,5,couleur='bleu',taille=5)
+trace_point(6,7,couleur='bleu',taille=5,forme='croix')
+trace_texte(-3,3,"Un texte",couleur = 'bleu')
 ```
 
 On peut agir sur le repère grâce à la souris:
@@ -47,7 +44,8 @@ On peut agir sur le repère grâce à la souris:
 .. note::
     Il faut désactiver `l'affichage de variables </#affichage-des-variables>`_  dans thonny pour pouvoir utiliser cette librairie.
 
-
+## couleurs
+TODO
 
 
 ## Techniquement
