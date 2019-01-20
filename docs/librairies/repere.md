@@ -44,8 +44,8 @@ On peut agir sur le repère grâce à la souris:
 .. note::
     Il faut désactiver `l'affichage de variables </#affichage-des-variables>`_  dans thonny pour pouvoir utiliser cette librairie.
 
-## couleurs
-TODO
+## Couleurs
+.. mdinclude:: ../couleurs.md
 
 
 ## Techniquement
