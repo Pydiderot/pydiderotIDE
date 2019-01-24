@@ -3,9 +3,9 @@
 Ce site documente l'environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépôt [github](https://github.com/cspaier/thonny).
 
 ## Environnement
-Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
+Nous l'utilisons l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.0.8) disponible sous licence MIT.
 
-Le langage de programmation est python version 3.7.1rc1. Nous utilisons la version 3.0.8 de Thonny avec Tk 8.6.8.
+Le langage de programmation est python version 3.7.1rc1 avec Tk 8.6.8.
 
 
 ![](https://thonny.org/img/screenshot.png)
