@@ -6,9 +6,10 @@ Ce répertoire contient l'environnement de développement utilisées par les él
 La documentation (en cours de construction) est disponible [ici](https://pydiderot.readthedocs.io/).
 
 ## Environnement
-Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
 
-Le langage de programmation est python version 3.7.1rc1. Nous utilisons la version 3.0.8 de Thonny avec Tk 8.6.8.
+Nous l'utilisons l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.0.8) disponible sous licence MIT.
+
+Le langage de programmation est python version 3.7.1rc1 avec Tk 8.6.8.
 
 
 ![](https://thonny.org/img/screenshot.png)
