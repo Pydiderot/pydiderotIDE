@@ -97,6 +97,7 @@ while 1:
         print('clic aux coordonées ' + str(evenements['clic']))
 ```
 
+.. _couleurs:
 ## Couleurs
 .. mdinclude:: ../couleurs.md
 
