@@ -3,9 +3,9 @@
 Ce site documente l'environnement de développement utilisées par les élèves et les professeurs du lycée Denis Diderot à Marseille afin de travailler, entre autres, sur la partie algorithmique et programmation. Le projet est hébergé sur ce dépôt [github](https://github.com/cspaier/thonny).
 
 ## Environnement
-Thonny est un environnement de développement python simple téléchargeable sur [https://thonny.org/](https://thonny.org/).
+Nous l'utilisons l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.0.8) disponible sous licence MIT.
 
-Le langage de programmation est python version 3.7.1rc1. Nous utilisons la version 3.0.8 de Thonny avec Tk 8.6.8.
+Le langage de programmation est python version 3.7.1rc1 avec Tk 8.6.8.
 
 
 ![](https://thonny.org/img/screenshot.png)
@@ -43,13 +43,14 @@ Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous
 - [repere](/librairies/graphique/): Permet l'affichage d'un repère du plan interactif (zoom, déplacer).
 - [entree_tk](/librairies/entree_tk/): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
 - [lycee](/libraries/lycee/) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
+- [graphique](/librairies/graphique): Permet l'affichage d'une fenêtre graphique dynamique et une gestion simplifiée des entrées clavier et souris.
 
 
 ## Quoi de neuf?
 
 Les modifications effectuées par l'équipe de math sont:
 
-- Ajout des librairies [pygame 1.9.4](https://www.pygame.org/).
+- Ajout de la librairies [pygame 1.9.4](https://www.pygame.org/).
 
 - [customize.py](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/customize.py): Le dossier de configuration est dans `%HOMESHARE%/python/.thonny`
 - [configuration.ini](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/thonny/user_dir_template/configuration.ini): Utilisation de l'environnement python du frontend.

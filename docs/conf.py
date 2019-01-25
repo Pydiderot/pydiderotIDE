@@ -213,6 +213,7 @@ fichiers = [
     'arithmetique',
     'chaines',
     'fonctions_usuelles',
+    'couleurs',
 ]
 # On ajoute ".py" à la fin des fichiers
 fichiers = list(map(lambda x: x + ".py", fichiers))
