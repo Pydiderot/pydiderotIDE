@@ -201,13 +201,13 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 # Liste des fichiers à zipper
 # les fichiers doivent se trouver dans THonny/Lib/site-packages
 fichiers = [
-    'entree_tk',
+    'entree',
     'graphique',
     'repere',
     'lycee',
     'listes',
     'stats_proba',
-    'TestLibrairies',
+    'test_librairies',
     'trigo',
     'vecteurs',
     'arithmetique',

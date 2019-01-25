@@ -1,8 +1,8 @@
-# Entree_tk
+# entree
 ## A propos
-:download:`entree_tk.py </../Thonny/Lib/site-packages/entree_tk.py>`
+:download:`entree.py </../Thonny/Lib/site-packages/entree.py>`
 
-Cette librairie fournie des fonctions d'entrées utilisateur affichant une fenêtre avec un champ de saisie texte. Le code est disponible [ici](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/entree_tk.py).
+Cette librairie fournie des fonctions d'entrées utilisateur affichant une fenêtre avec un champ de saisie texte. Le code est disponible [ici](https://github.com/cspaier/thonny/blob/diderot/Thonny/Lib/site-packages/entree.py).
 
 Nous constatons qu'un utilisateur peu expérimenté peut être surpris par l'invite d'entrée peu interactive de la console python et proposons cette librairie comme solution.
 
@@ -13,7 +13,7 @@ Cette librairie fournie également une fonction `demander_reel()` dont la sortie
 ## utilisation
 ```python
 # on importe la librairie
-from entree_tk import *
+from entree import *
 
 # On demande une chaîne de caractères à l'utilisateur que l'on stocke dans la variable x
 x = demander_texte()
@@ -26,7 +26,7 @@ y = demander_reel()
 
 ## Documentation
 
-.. automodule:: entree_tk
+.. automodule:: entree
     :members:
     :member-order: bysource
 

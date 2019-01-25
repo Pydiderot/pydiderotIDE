@@ -177,10 +177,10 @@ print(pi)
 
 ### 4.b. Quelques exemples avec les librairies « maison »
 
-La librairie [entree_tk](/librairies/entree_tk) permet de répondre au problème de typage évoqué précédemment :
+La librairie [entree](/librairies/entree) permet de répondre au problème de typage évoqué précédemment :
 
 ```python
-from entree_tk import *
+from entree import *
 demander_texte()
 a=demander_reel()
 print(type(a))
@@ -309,7 +309,7 @@ print("Coordonnées du milieu : (" + str(xM) + " ; " + str(yM) + ")")
 
 __exo__ : le refaire et l’améliorer en ajoutant de quoi afficher la distance AB
 
-__Remarque__ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree_tk](/librairies/entree_tk).
+__Remarque__ on peut demander exactement la même chose à une classe à condition d’écrire au tableau la « formule magique » ou d'utiliser la libraire [entree](/librairies/entree).
 
 #### Ca bouge!
 
