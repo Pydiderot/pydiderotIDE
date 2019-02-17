@@ -15,7 +15,7 @@ Nous utilisons les issues github pour gérer cela. Vérifiez si votre cas est d�
 ## J'ai codé un truc, fixé un bug
 Nous acceptons les Pull requests dans la branche `dev`.
 
-Merci de commenter le code python en utilisant la [convention google](http://google.github.io/styleguide/pyguide.html):
+Merci de commenter le code python en utilisant la [convention google](http://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings):
 ```python
 def trace_texte(x, y, texte, couleur='black'):
     """Trace un texte dans la fenêtre graphique au coordonées `x, y`.
