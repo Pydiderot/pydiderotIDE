@@ -1,4 +1,5 @@
-# Formation technique
+# Formation Python 2 : échanges sur le plan pédagogique
+
 ## 1.Quoi? pour qui?
 Ce document est utilisé en formation interne au lycée, pour partager nos expériences avec l'environnement python du lycée. 
 Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation2.pdf.
@@ -11,8 +12,9 @@ L'objectif est de :
    - partager les difficultés techniques que nous rencontrons ou que rencontrent nos élèves dans l'utilisation de l'environnement pydiderot
    - partager des idées d'activités sur l'algorithmique
 
+## 2. 
 
-
+**********la suite est à modifier*****************
 ## 2. Prise en main
 .. figure:: https://thonny.org/img/get_started.png
     :align: right
