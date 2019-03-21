@@ -1,18 +1,50 @@
 # Formation Python 2 : échanges sur le plan pédagogique
 
-## 1.Quoi? pour qui?
+## 1. Quoi? pour qui?
 Ce document est utilisé en formation interne au lycée, pour partager nos expériences avec l'environnement python du lycée. 
 Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation2.pdf.
+
 Il fait référence à des documents mutualisés en interne par les professeurs du lycée Diderot, Marseille. Ces documents ne sont pas forcément publiés.
 
 L'objectif est de :
 
-   - discuter d'une progression sur l'algorithmique
+   - partager des idées d'activités sur l'algorithmique (une synthèse des activités mutualisées par les collègues est proposée)
    - partager les difficultés que rencontrent nos élèves dans l'apprentissage de l'algorithmique
    - partager les difficultés techniques que nous rencontrons ou que rencontrent nos élèves dans l'utilisation de l'environnement pydiderot
-   - partager des idées d'activités sur l'algorithmique
+   - discuter d'une progression sur l'algorithmique
 
-## 2. 
+
+## 2. Synthèse des activités mutualisées
+
+
+## 3. Difficultés
+### La notion de variable
+introduction délicate : ne pas croire que c'est facile
+
+différentes utilisation : '''x=5''' est plus simple à comprendre pour les élèves que '''x=x+1''' ou que '''for j in range(5)'''
+
+faire une activité débranchée
+
+faire un travail préalable en maths (ou en parallèle)
+### La notion de boucle
+#### Boucle "while"
+nécessite d'expliquer '''x=x+1'''
+
+nécessite de traduire en langage python "tant que j < 5, il faut répéter ..... fin."
+
+le "il faut répéter" se traduit par une virgule !
+
+le "fin" se traduit par une absence de tabulation !
+
+#### Boucle "for"
+nécessite d'expliquer le range()...
+#### Difficultés liées au langage
+#### Difficultés liées aux librairies créées spécialement pour pydiderot
+#### Difficultés techniques
+
+
+
+## 4. Progression
 
 **********la suite est à modifier*****************
 ## 2. Prise en main
