@@ -131,25 +131,25 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 
 **********la suite est à modifier*****************
 ## 2. Prise en main
-.. figure:: algo_pretexte_pour_etude_math.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/algo_pretexte_pour_etude_math.PNG
     :align: right
     :width: 200px
 
-.. figure:: https://thonny.org/img/avec_fonction_mais_sans_variable.png
-
-    :align: right
-
-    :width: 200px
-
-
-.. figure:: https://thonny.org/img/boucle_necessaire.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/boucle_sans_variable.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/boucle_necessaire.PNG
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/boucle_sans_variable.PNG
 
     :align: right
 
