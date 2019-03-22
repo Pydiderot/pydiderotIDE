@@ -18,15 +18,15 @@ L'objectif est de :
 #### 1. Documents généraux
  - liste d'idées de questions d'algo en lien avec les programmes 
 
-fichier "progression algo en parallèle.odt", Loïc
+ fichier "progression algo en parallèle.odt", Loïc
 
  - quelques trames de séances très basiques sur la prise en main, les opérations de base, une première fonction, le début avec les listes (Python)
 
-fichier "séances_python.odt", Loïc
+ fichier "séances_python.odt", Loïc
 
  - des idées sur l'introduction progressive de la notion de variable, avec quelques idées d'activités 
 
-fichier "progression début algo", Paul
+ fichier "progression début algo", Paul
 
 #### 2. Fichiers techniques
 
@@ -39,11 +39,11 @@ fichier "progression début algo", Paul
 
  - deux activités sur la recherche du maximum d'une fonction, testées cette année (boucles while en python et utilisation de la librairie "repère")
 
-fichier "2nde act algo fonction max.odt", Paul
+ fichier "2nde act algo fonction max.odt", Paul
 
  - un TP de 1S avec boucle for, boucle while et librairie "repère"
 
-fichier "TP_1S.odt", Clément
+ fichier "TP_1S.odt", Clément
 
  - une activité de 1STI2D (prise en main de Python, boucle for, à réécrire avec la nouvelle version de pydiderot)
  
@@ -53,19 +53,19 @@ fichier "TP_1S.odt", Clément
 
 - une activité sans ordinateur, pour mettre en évidence la notion de boucle et celle de variable
 
-fichier "act debranchee boucle et variable (1).odt", Paul
+ fichier "act debranchee boucle et variable (1).odt", Paul
 
  - une activité sur la découverte de la dérivée de la fonction carrée en réalisant l'enveloppe d'une famille de droites (boucle 'for' dans un outil wims)
 
-fichier "1STD2A act tangentes fonction carrée.odt", Paul
+ fichier "1STD2A act tangentes fonction carrée.odt", Paul
 
  - une activité se 2nde pour utiliser les coordonnées (variable, boucle, code à modifier facilement, mais compliqué à écrire pour les élèves)(Javascript)
  
-fichier "2nde act algo enonce (javascript).odt", Paul
+ fichier "2nde act algo enonce (javascript).odt", Paul
 
  - une activité de seconde sur les vecteurs (coordonnées de vecteurs pour faire rebondir une balle en mouvement sur les parois d'un rectangle)(blockly)
  
-fichier "act 2nde vecteurs blockly.odt", Paul
+ fichier "act 2nde vecteurs blockly.odt", Paul
 
  - un exercice d'entraînement où il faut créer du code blockly
  
@@ -73,15 +73,15 @@ fichier "act 2nde vecteurs blockly.odt", Paul
  
 - une activité plus difficile où il faut utiliser les intervalles et la logique pour faire une fonction qui détecte si deux rectangles s'intersectent ou non (pseudo-code / javascript)
 
-fichier "2nde act algo jeu video intervalles.odt", Paul
+ fichier "2nde act algo jeu video intervalles.odt", Paul
 
  - Quelques idées pour la TSTD2A (javascript / pseudo-code)
  
- http://byachepaul.web4me.fr/GeometrieJeuxVideo/Tale/build/index.html
+ [voir ici](http://byachepaul.web4me.fr/GeometrieJeuxVideo/Tale/build/index.html)
  
  - Quelques idées pour la seconde (javascript)
  
- http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html
+ [voir ici](http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html)
 
 ## 3. Difficultés
 ### La notion de variable
@@ -131,24 +131,85 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 
 **********la suite est à modifier*****************
 ## 2. Prise en main
-.. figure:: https://thonny.org/img/get_started.png
+.. figure:: https://thonny.org/img/algo_pretexte_pour_etude_math.png
     :align: right
     :width: 200px
 
-A partir du bureau des ordinateurs du lycée: `Logiciels > MATH > _Maths > _RACCOURCIS MATH_ > Thonny python`
+.. figure:: https://thonny.org/img/avec_fonction_mais_sans_variable.png
 
-Quand on lance Thonny, il y a deux zones :
+    :align: right
 
-- la zone du haut où on travaille dans un fichier, qui peut être exécuté quand on le demande, et qui peut être enregistré (sur cette image, le fichier s'appelle "Hello.py")
-- la zone du bas qui est un **shell** : comme un écran de calculatrice, mais qui exécute des commandes Python (on ne peut pas l'enregistrer)(c'est dans cette zone qu'apparaissent les résultats des commandes exécutées depuis un fichier de la zone du haut)
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/boucle_necessaire.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/boucle_sans_variable.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/consigne_liberte_guidee.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/consigne_modif_code.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/consigne_recopier_puis_analyser.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/consigne_recopier_solution.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/consignes_non_techniques.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/prof_programme_util_justif_exp_math.png
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://thonny.org/img/variable_necessaire.png
+
+    :align: right
+
+    :width: 200px
+
+
+
+
+
 
 ### Quelques instructions à essayer dans le shell :
-```python
-3 + 4
-print("hello world")
-"hello" + "world"
-```
-### Quelques exemples à enregistrer dans un fichier :
 ```python
 3 + 4
 print("hello world")
