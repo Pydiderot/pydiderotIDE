@@ -133,26 +133,26 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 ## 2. Prise en main
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/algo_pretexte_pour_etude_math.PNG
     :align: center
-    :width: 400px
+    :width: 600px
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
     :align: center
-    :width: 150px
+    :width: 200px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_necessaire.PNG
     :align: center
-    :width: 150px
+    :width: 200px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_sans_variable.PNG
     :align: center
-    :width: 150px
+    :width: 250px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_liberte_guidee.PNG
     :align: center
-    :width: 400px
+    :width: 500px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_modif_code.PNG
@@ -162,7 +162,7 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_puis_analyser.PNG
     :align: center
-    :width: 150px
+    :width: 200px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_solution.PNG
@@ -172,17 +172,17 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consignes_non_techniques.PNG
     :align: center
-    :width: 400px
+    :width: 500px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
     :align: center
-    :width: 150px
+    :width: 250px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/variable_necessaire.PNG
     :align: center
-    :width: 150px
+    :width: 200px
 
 
 
