@@ -30,7 +30,7 @@ fichier "progression début algo", Paul
 
 #### 2. Fichiers techniques
 
- - une fiche reprenant une liste d'instructions disponibles, avec à chaque fois une description et un exemple. Cette fiche donne des instructions disponible dans un petit environnement javascript, du genre de celui [http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html](visible ici), et repris [http://byachepaul.web4me.fr/blockly/v1/](en blockly ici).
+ - une fiche reprenant une liste d'instructions disponibles, avec à chaque fois une description et un exemple. Cette fiche donne des instructions disponible dans un petit environnement javascript, du genre de celui [visible ici](http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html), et repris [en blockly ici](http://byachepaul.web4me.fr/blockly/v1/).
  Il faudrait le reprendre avec nos instructions disponibles dans pydiderot. Il serait sans doute judicieux également de créer un environnement Blockly qui mime pydiderot, de façon à pouvoir basculer facilement de l'un à l'autre, notamment en classe de seconde...
  
  fichier "Liste instructions python.pdf", Paul
@@ -51,6 +51,10 @@ fichier "TP_1S.odt", Clément
 
 #### 3. Activités sans Python
 
+- une activité sans ordinateur, pour mettre en évidence la notion de boucle et celle de variable
+
+fichier "act debranchee boucle et variable (1).odt", Paul
+
  - une activité sur la découverte de la dérivée de la fonction carrée en réalisant l'enveloppe d'une famille de droites (boucle 'for' dans un outil wims)
 
 fichier "1STD2A act tangentes fonction carrée.odt", Paul
@@ -58,6 +62,26 @@ fichier "1STD2A act tangentes fonction carrée.odt", Paul
  - une activité se 2nde pour utiliser les coordonnées (variable, boucle, code à modifier facilement, mais compliqué à écrire pour les élèves)(Javascript)
  
 fichier "2nde act algo enonce (javascript).odt", Paul
+
+ - une activité de seconde sur les vecteurs (coordonnées de vecteurs pour faire rebondir une balle en mouvement sur les parois d'un rectangle)(blockly)
+ 
+fichier "act 2nde vecteurs blockly.odt", Paul
+
+ - un exercice d'entraînement où il faut créer du code blockly
+ 
+ fichier "2nde axo algo blocklypouraujourdhui.odt", Paul
+ 
+- une activité plus difficile où il faut utiliser les intervalles et la logique pour faire une fonction qui détecte si deux rectangles s'intersectent ou non (pseudo-code / javascript)
+
+fichier "2nde act algo jeu video intervalles.odt", Paul
+
+ - Quelques idées pour la TSTD2A (javascript / pseudo-code)
+ 
+ http://byachepaul.web4me.fr/GeometrieJeuxVideo/Tale/build/index.html
+ 
+ - Quelques idées pour la seconde (javascript)
+ 
+ http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html
 
 ## 3. Difficultés
 ### La notion de variable
