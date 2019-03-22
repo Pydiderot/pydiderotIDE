@@ -135,15 +135,17 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
     :align: center
     :width: 600px
 
+
+
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
     :align: center
     :width: 200px
 
 
+
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_necessaire.PNG
     :align: center
     :width: 200px
-    :border: 1px
 
 
 
@@ -151,49 +153,41 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_sans_variable.PNG
     :align: center
     :width: 250px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_liberte_guidee.PNG
     :align: center
     :width: 500px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_modif_code.PNG
     :align: center
     :width: 300px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_puis_analyser.PNG
     :align: center
     :width: 200px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_solution.PNG
     :align: center
     :width: 400px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consignes_non_techniques.PNG
     :align: center
     :width: 500px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
     :align: center
     :width: 250px
-    :border: 1px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/variable_necessaire.PNG
     :align: center
     :width: 200px
-    :border: 1px
 
 
 
