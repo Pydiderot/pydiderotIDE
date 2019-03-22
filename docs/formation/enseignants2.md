@@ -156,49 +156,49 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/consigne_liberte_guidee.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_liberte_guidee.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/consigne_modif_code.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_modif_code.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/consigne_recopier_puis_analyser.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_recopier_puis_analyser.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/consigne_recopier_solution.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_recopier_solution.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/consignes_non_techniques.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consignes_non_techniques.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/prof_programme_util_justif_exp_math.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://thonny.org/img/variable_necessaire.png
+.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/variable_necessaire.PNG
 
     :align: right
 
