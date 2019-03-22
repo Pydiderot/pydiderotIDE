@@ -134,13 +134,10 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/algo_pretexte_pour_etude_math.PNG
     :align: center
     :width: 600px
-    :border: 1px
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
     :align: center
     :width: 200px
-    :border: 1px
-
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_necessaire.PNG
