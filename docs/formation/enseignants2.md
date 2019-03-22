@@ -131,7 +131,7 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 
 **********la suite est à modifier*****************
 ## 2. Prise en main
-.. figure:: https://thonny.org/img/algo_pretexte_pour_etude_math.png
+.. figure:: algo_pretexte_pour_etude_math.png
     :align: right
     :width: 200px
 
