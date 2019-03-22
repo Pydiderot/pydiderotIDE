@@ -4,42 +4,60 @@
 Ce document est utilisé en formation interne au lycée, pour partager nos expériences avec l'environnement python du lycée. 
 Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation2.pdf.
 
-Il fait référence à des documents mutualisés en interne par les professeurs du lycée Diderot, Marseille. Ces documents ne sont pas forcément publiés.
+Il fait référence à des documents mutualisés en interne par les professeurs du lycée Diderot, Marseille. Ces documents ne sont pas forcément publics.
 
 L'objectif est de :
 
    - partager des idées d'activités sur l'algorithmique (une synthèse des activités mutualisées par les collègues est proposée)
    - partager les difficultés que rencontrent nos élèves dans l'apprentissage de l'algorithmique
    - partager les difficultés techniques que nous rencontrons ou que rencontrent nos élèves dans l'utilisation de l'environnement pydiderot
-   - discuter d'une progression sur l'algorithmique
+   - mettre en place une progression commune sur l'algorithmique
 
 
 ## 2. Synthèse des activités mutualisées
-#### 1. liste d'idées de questions d'algo en lien avec les programmes 
+#### 1. Documents généraux
+ - liste d'idées de questions d'algo en lien avec les programmes 
 
 fichier "progression algo en parallèle.odt", Loïc
 
-#### 2. quelques trames de séances très basiques sur la prise en main, les opérations de base, une première fonction, le début avec les listes 
+ - quelques trames de séances très basiques sur la prise en main, les opérations de base, une première fonction, le début avec les listes (Python)
 
 fichier "séances_python.odt", Loïc
 
-#### 3. des idées sur l'introduction progressive de la notion de variable, avec quelques idées d'activités 
+ - des idées sur l'introduction progressive de la notion de variable, avec quelques idées d'activités 
 
 fichier "progression début algo", Paul
 
-#### 4. deux activités sur la recherche du maximum d'une fonction, testées cette année (boucles while en python et utilisation de la librairie "repère")
+#### 2. Fichiers techniques
+
+ - une fiche reprenant une liste d'instructions disponibles, avec à chaque fois une description et un exemple. Cette fiche donne des instructions disponible dans un petit environnement javascript, du genre de celui [http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html](visible ici), et repris [http://byachepaul.web4me.fr/blockly/v1/](en blockly ici).
+ Il faudrait le reprendre avec nos instructions disponibles dans pydiderot. Il serait sans doute judicieux également de créer un environnement Blockly qui mime pydiderot, de façon à pouvoir basculer facilement de l'un à l'autre, notamment en classe de seconde...
+ 
+ fichier "Liste instructions python.pdf", Paul
+
+#### 2. Activités avec Python
+
+ - deux activités sur la recherche du maximum d'une fonction, testées cette année (boucles while en python et utilisation de la librairie "repère")
 
 fichier "2nde act algo fonction max.odt", Paul
 
-#### 5. une activité sur la découverte de la dérivée de la fonction carrée en réalisant l'enveloppe d'une famille de droites (boucle 'for' dans un outil wims)
-
-fichier "1STD2A act tangentes fonction carrée.odt", Paul
-
-#### 6. un TP de 1S avec boucle for, boucle while et librairie "repère"
+ - un TP de 1S avec boucle for, boucle while et librairie "repère"
 
 fichier "TP_1S.odt", Clément
 
-#### 7. "Liste instructions python.pdf",Paul "1STI2D_La fusée dans l’espace.pdf",Loïc
+ - une activité de 1STI2D (prise en main de Python, boucle for, à réécrire avec la nouvelle version de pydiderot)
+ 
+ fichier "1STI2D_La fusée dans l’espace.pdf",Loïc
+
+#### 3. Activités sans Python
+
+ - une activité sur la découverte de la dérivée de la fonction carrée en réalisant l'enveloppe d'une famille de droites (boucle 'for' dans un outil wims)
+
+fichier "1STD2A act tangentes fonction carrée.odt", Paul
+
+ - une activité se 2nde pour utiliser les coordonnées (variable, boucle, code à modifier facilement, mais compliqué à écrire pour les élèves)(Javascript)
+ 
+fichier "2nde act algo enonce (javascript).odt", Paul
 
 ## 3. Difficultés
 ### La notion de variable
