@@ -131,74 +131,74 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 
 **********la suite est à modifier*****************
 ## 2. Prise en main
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/algo_pretexte_pour_etude_math.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/algo_pretexte_pour_etude_math.PNG
     :align: right
     :width: 200px
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
-
-    :align: right
-
-    :width: 200px
-
-
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/boucle_necessaire.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/boucle_sans_variable.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_necessaire.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_liberte_guidee.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_sans_variable.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_modif_code.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_liberte_guidee.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_recopier_puis_analyser.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_modif_code.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consigne_recopier_solution.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_puis_analyser.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/consignes_non_techniques.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_solution.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consignes_non_techniques.PNG
 
     :align: right
 
     :width: 200px
 
 
-.. figure:: https://github.com/cspaier/pydiderot/tree/dev/docs/formation/variable_necessaire.PNG
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
+
+    :align: right
+
+    :width: 200px
+
+
+.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/variable_necessaire.PNG
 
     :align: right
 
