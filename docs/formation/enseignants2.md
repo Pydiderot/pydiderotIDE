@@ -132,77 +132,57 @@ les plantages de la nouvelle version de pydiderot : aucun réel plantage détect
 **********la suite est à modifier*****************
 ## 2. Prise en main
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/algo_pretexte_pour_etude_math.PNG
-    :align: right
-    :width: 200px
+    :align: center
+    :width: 400px
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 150px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_necessaire.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 150px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_sans_variable.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 150px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_liberte_guidee.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 400px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_modif_code.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 300px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_puis_analyser.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 150px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_solution.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 400px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consignes_non_techniques.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 400px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 150px
 
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/variable_necessaire.PNG
-
-    :align: right
-
-    :width: 200px
+    :align: center
+    :width: 150px
 
 
 
