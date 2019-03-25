@@ -129,13 +129,6 @@ Un exemple d'image qu'on peut générer avec une fonction "entier_aleatoire()" e
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/avec_fonction_mais_sans_variable.PNG
     :align: center
     :width: 200px
-    
-Une autre activité où une boucle est nécessaire :
-
-
-.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/boucle_sans_variable.PNG
-    :align: center
-    :width: 250px
 
 Cependant, en Python, difficile de faire une boucle sans variable. On a essentiellement le choix entre "for j in range(5)" et "while j<5 : ... j=j+1". Dans les deux cas, le travail sur la variable "compteur" j s'impose.
 
@@ -150,6 +143,11 @@ Cependant, on n'a pas besoin spécialement d'une boucle "while" !
     :align: center
     :width: 200px
 
+Une idée : programmer une fonction "repeter(n,f)" qui répète n fois la fonction f (cela nécessite de commencer très tôt la notion de fonction en algorithmique mais ce n'est sans doute pas grave).
+
+On utilise plusieurs fois cette fonction.
+
+Ensuite, on s'arrange pour proposer des problèmes dans lesquels on ne sait pas à l'avance le nombre de fois où il faut répéter et/ou des problèmes où la vraiable "compteur" est utile. Cela permet alors de proposer la boucle while.
 
 Un peu de comparaison entre les deux types de boucles :
 
