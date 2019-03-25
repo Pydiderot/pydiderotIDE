@@ -302,9 +302,10 @@ Ici, un problème d'algorithmique devient le prétexte pour une étude mathémat
     :align: center
     :width: 600px
 
-ici ?
+Ici, on veut tester (en 1STD2A, sans avoir les moyens de le justifier mathématiquement) que la dérivée de la fonction carré est x->2x. Pour cela, on trace à l'aide d'une boucle for pleins de tangentes en calculant leurs coefficients directeurs grâce à cette fonction. Le résultat est une famille de droites faisant apparaître clairement la parabole de la fonction carré. C'est à la fois beau et convaincant.
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/prof_programme_util_justif_exp_math.PNG
     :align: center
     :width: 250px
 
+.
