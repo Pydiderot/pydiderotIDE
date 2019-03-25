@@ -97,11 +97,11 @@ Les documents qui se trouvent dans : `Atrium > Mes sites > Professeurs de maths 
  
  - Quelques idées pour la TSTD2A (javascript / pseudo-code)
  
-  [*voir ici*](http://byachepaul.web4me.fr/GeometrieJeuxVideo/Tale/build/index.html)
+  [voir ici](http://byachepaul.web4me.fr/GeometrieJeuxVideo/Tale/build/index.html)
  
  - Quelques idées pour la seconde (javascript)
  
-  [*voir ici*](http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html)
+  [voir ici](http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html)
 
 ## 3. Difficultés
 ### La notion de variable
