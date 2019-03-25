@@ -48,6 +48,9 @@ L'objectif est de :
  - une activité de 1STI2D (prise en main de Python, boucle for, à réécrire avec la nouvelle version de pydiderot)
  
  fichier "1STI2D_La fusée dans l’espace.pdf",Loïc
+ 
+ - une activité sur les suites en 1S qui donne lieu a un travail sur les boucles
+ fichier "Activités suites et boucles.pdf", Loïc
 
 #### 3. Activités sans Python
 
@@ -104,6 +107,15 @@ le "fin" se traduit par une absence de tabulation !
 
 #### Boucle "for"
 nécessite d'expliquer le range()...
+La difficulté peut-être contournée dans un premier temps par l'intruction suivante :
+```python
+
+for x in 1,2,3,4,5,6,7,8:
+   U=U+2
+
+```
+en calculant seulement le U au rang 8.
+
 #### Difficultés liées au langage
 il faut expliquer le fait qu'il y a du code qu'on écrit en général dans un fichier et qu'il y a ensuite l'exécution du code
 
@@ -112,6 +124,14 @@ que l'indentation a du sens
 que les commandes sont suivies de parenthèses, sans espace (comme par exemple `print('coucou')`)
 
 les différents types (ou au moins les marqueurs "guillemets" pour le type string)
+
+que la fonction `input()` renvoir un string lorsqu'on lui passe un chiffre et qu'il faille le convertir avec int. Ex :
+```python
+
+n=input("donner un nombre : ")
+n=int(n)
+
+```
 
 
 
@@ -123,9 +143,10 @@ de plus, les nommages ne sont pas forcément ultra-judicieux.
 
 Conclusion : faire un doc papier avec les différentes commandes + pour l'année prochaine, renommer les commandes. Le plus cohérent avec python existant : nommer les commandes en anglais + conserver la même structure par exemple au lieu de `creer_fenetre()` et `trace_point()`, mettre : `window()` et `point()`
 
+On peut multiplier les fonctions : faire une fonction `fenetre()` ET une fonction `window()` qui font la même chose.
 #### Difficultés techniques
 
-les plantages de la nouvelle version de pydiderot : aucun réel plantage détecté, par contre une difficulté liée sans doute à l'installation sur le réseau du lycée : souvent, thonny se met à "ramer". Dans ce cas, il suffit de le fermer et de le réouvrir. Le travail est automaztiquement enregistré, donc rien n'est perdu.
+les plantages de la nouvelle version de pydiderot : aucun réel plantage détecté, par contre une difficulté liée sans doute à l'installation sur le réseau du lycée : souvent, thonny se met à "ramer". Dans ce cas, il suffit de le fermer et de le réouvrir. Le travail est automatiquement enregistré, donc rien n'est perdu.
 
 ## 4. Progression
 
