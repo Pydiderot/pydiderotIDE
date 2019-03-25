@@ -105,7 +105,9 @@ Les documents qui se trouvent dans : `Atrium > Mes sites > Professeurs de maths 
 
 ## 3. Difficultés
 
+
 ### La notion de variable
+
 
 La notion de variable pose des problèmes aux élèves. Son introduction doit être considérée comme délicate : attention à ne pas croire que c'est facile pour eux, sinon on risque des désillusions.
 
@@ -122,7 +124,9 @@ Un exemple d'activité débranchée où le codage de `j=j+1` s'impose :
 
 On peut aussi faire un travail préalable en maths (avant ou en parallèle du travail en algo) : faire une ou deux études de fonctions où les variables sont modélisées par des curseurs GeoGebra par exemple...
 
+
 ### La notion de boucle
+
 
 Remarques générales : la notion de boucle pose moins de problème aux élèves que la notion de variable. On peut très bien faire des boucles sans variable, par exemple en blockly ou en "débranché". L'instruction est alors du type "répéter 5 fois...". Les élèves comprennent très bien l'intérêt de demander à l'ordinateur de répéter plusieurs fois les mêmes instructions.
 
@@ -193,9 +197,10 @@ en calculant seulement le U au rang 8.
 
 
 #### Boucles et suites
-Observations après l'activité boucle et suite (cf. plus haut). Il y a beaucoup de variables à considérer pour une suite Un. Les valeurs et rang initiaux, les valeurs et rang finaux désirés et un compteur de boucle : tout les rangs intermédiaires qu'il faut calculer.
 
-Le N dans Un en math joue à la fois le rôle de rang final et de compteur de la boucle...
+Observations après l'activité boucle et suite (cf. plus haut). Il y a beaucoup de variables à considérer pour une suite Un. Les valeurs et rang initiaux, les valeurs et rang finaux désirés et un compteur de boucle : tous les rangs intermédiaires qu'il faut calculer.
+
+Le 'n' dans Un en math joue à la fois le rôle de rang final et de compteur de la boucle...
 
 #### Difficultés liées au langage
 
@@ -238,21 +243,31 @@ Les plantages de la nouvelle version de pydiderot : aucun réel plantage n'a ét
 
 ## 4. Progression
 
+
 ### Seconde : 
+
+
  - boucle (sans variable)
  - variable (en liaison avec les fonctions d'une variable en maths)
  - boucle avec varaible, mais simple (que des while avec la variable compteur qui est utilisée de façon hyper standardisée ?)
  - fonction (en liaison avec les fonctions en maths)
  - condition "if..." (pas de difficulté our les élèves ?)
- 
+
+
 ### Première :
- - quelques listes
+
+
+- quelques listes
  - boucle for
  - boucles avec variables plus compliquées (typiquement : boucles pour résoudre les problèmes sur les suites, dans lesquels il y a aussi bien un travail possible sur l'indice de la suite que sur la valeur du terme de la suite)
- 
+
+
 ### Terminale :
- - rien de plus, retravail de ces notions
+
+
+- rien de plus, retravail de ces notions
  
+
 ## 5. Les consignes dans nos activités
 
 Quand on lit tout ce qui a été mutualisé, on peut regrouper les activités en fonction (par exemple) du type de consigne.
@@ -267,7 +282,7 @@ Une consigne un peu différente : *recopiez puis analysez*
     
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consigne_recopier_puis_analyser.PNG
     :align: center
-    :width: 200px
+    :width: 400px
 
 Une autre consigne, qui marche super bien mais qui n'apprend sans doute pas réellement aux élèves à coder : *modifiez ces lignes de code pour qu'on obtienne tel ou tel résultat* (Les élèves aiment bien et ils arrivent assez vite au résultat demandé en tâtonnant. Cependant : ils s'inventent des tas de "théorèmes élèves" sur le code qu'ils manipulent (c'est à dire qu'ils le comprennent souvent assez mal). Par ailleurs, si on leur demande par la suite de coder un petit programme à partir de zéro, c'est assez catastrophique si ça n'a pas été travaillé également de façon approfondie.
 
@@ -277,11 +292,6 @@ Une autre consigne, qui marche super bien mais qui n'apprend sans doute pas rée
 
 Un exemple de consigne totalement non technique (là, au contraire, il s'agit vraiment de codage !) : 
 
-.. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consignes_non_techniques.PNG
-    :align: center
-    :width: 500px
-    
-Un autre exemple :
 
 .. figure:: https://raw.githubusercontent.com/cspaier/pydiderot/dev/docs/formation/consignes_non_techniques2.PNG
     :align: center
