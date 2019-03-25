@@ -41,7 +41,7 @@ Les documents qui se trouvent dans : `Atrium > Mes sites > Professeurs de maths 
  
   *fichier "Liste instructions python.pdf", Paul*
 
-#### 2. Activités avec Python
+#### 3. Activités avec Python
 
  - deux activités sur la recherche du maximum d'une fonction (boucles while en python et utilisation de la librairie "repère")
  
@@ -63,7 +63,7 @@ Les documents qui se trouvent dans : `Atrium > Mes sites > Professeurs de maths 
   *fichier "Activités suites et boucles.pdf", Loïc*
 
  
-#### 3. Activités sans Python
+#### 4. Activités sans Python
 
  - une activité sans ordinateur, pour mettre en évidence la notion de boucle et celle de variable
 
@@ -104,7 +104,9 @@ Les documents qui se trouvent dans : `Atrium > Mes sites > Professeurs de maths 
   [voir ici](http://byachepaul.web4me.fr/GeometrieJeuxVideo/2nde/build/index.html)
 
 ## 3. Difficultés
+
 ### La notion de variable
+
 La notion de variable pose des problèmes aux élèves. Son introduction doit être considérée comme délicate : attention à ne pas croire que c'est facile pour eux, sinon on risque des désillusions.
 
 Ceci dit, différentes utilisations existent : `x=5` est plus simple à comprendre pour les élèves que `x=x+1` ou que `for j in range(5)`...
