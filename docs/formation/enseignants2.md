@@ -1,6 +1,6 @@
 # Formation Python 2 : échanges sur le plan pédagogique
 
-## 1. Quoi? pour qui?
+## 1. Quoi ? pour qui ?
 Ce document est utilisé en formation interne au lycée, pour partager nos expériences avec l'environnement python du lycée. 
 Il est téléchargeable en pdf à l'url https://pydiderot.readthedocs.io/_static/formation2.pdf.
 
@@ -50,6 +50,7 @@ L'objectif est de :
  fichier "1STI2D_La fusée dans l’espace.pdf",Loïc
  
  - une activité sur les suites en 1S qui donne lieu a un travail sur les boucles
+ 
  fichier "Activités suites et boucles.pdf", Loïc
 
 #### 3. Activités sans Python
@@ -115,6 +116,11 @@ for x in 1,2,3,4,5,6,7,8:
 
 ```
 en calculant seulement le U au rang 8.
+
+#### Boucles et suites
+Observations après l'activité boucle et suite (cf. plus haut). Il y a beaucoup de variables à considérer pour une suite Un. Les valeurs et rang initiaux, les valeurs et rang finaux désirés et un compteur de boucle : tout les rangs intermédiaires qu'il faille calculer.
+
+Le N dans Un en math joue à la fois le rang final et le compteur de la boucle.
 
 #### Difficultés liées au langage
 il faut expliquer le fait qu'il y a du code qu'on écrit en général dans un fichier et qu'il y a ensuite l'exécution du code
