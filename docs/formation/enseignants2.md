@@ -244,25 +244,24 @@ Les plantages de la nouvelle version de pydiderot : aucun réel plantage n'a ét
 ## 4. Progression
 
 
-### Seconde : 
+ ### Seconde : 
 
-
- - boucle (sans variable)
+ - fonction (expliquer les différences avec les fonctions en maths)
+ - boucle (sans variable --> "répéter n fois")
  - variable (en liaison avec les fonctions d'une variable en maths)
- - boucle avec varaible, mais simple (que des while avec la variable compteur qui est utilisée de façon hyper standardisée ?)
- - fonction (en liaison avec les fonctions en maths)
+ - boucle avec variable, mais simple (que des while avec la variable compteur qui est utilisée de façon hyper standardisée ?)
  - condition "if..." (pas de difficulté our les élèves ?)
 
 
-### Première :
+ ### Première :
 
 
-- quelques listes
- - boucle for
+ - notion de liste
+ - boucle "for"
  - boucles avec variables plus compliquées (typiquement : boucles pour résoudre les problèmes sur les suites, dans lesquels il y a aussi bien un travail possible sur l'indice de la suite que sur la valeur du terme de la suite)
+ - boucle avec un "append" (instruction qui ajoute un élément à une liste)
 
-
-### Terminale :
+ ### Terminale :
 
 
 - rien de plus, retravail de ces notions
