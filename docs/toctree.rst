@@ -10,12 +10,6 @@ Python à Diderot
 
 
 .. toctree::
-    :caption: Librairies
-    :glob:
-
-    librairies/*
-
-.. toctree::
     :caption: Formations
     :glob:
 
