@@ -20,7 +20,7 @@ Télécharger le dossier compressé en zip avec ce [lien](https://github.com/csp
 ### Linux, MacOS
 Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org).
 
- Vous pouvez ensuite télécharger les librairies du lycée  en suivant les instructions disponibles [ici](https://pydiderotlibs.readthedocs.io/).
+Vous pouvez ensuite télécharger les librairies du lycée  en suivant les instructions disponibles [ici](https://pydiderotlibs.readthedocs.io/).
 
 
 
