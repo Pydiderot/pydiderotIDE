@@ -28,7 +28,7 @@ Vous pouvez ensuite télécharger la librairie pydiderolibs du lycée  en suivan
 
 
 ## Bibliothèques
-Afin de faciliter l'apprentissage de python dans l'enseignement secondaire et notamment en clase de mathématiques de Seconde, nous construisons quelques bibliothèques qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques. Ces bibliothèques sont bien sûr utilisables dans d'autres niveaux et/ou d'autres matières.
+Afin de faciliter l'apprentissage de python dans l'enseignement secondaire et notamment en clase de mathématiques de Seconde, nous construisons quelques bibliothèques  [pydiderotlibs](https://pydiderotlibs.readthedocs.io/) qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques. Ces bibliothèques sont bien sûr utilisables dans d'autres niveaux et/ou d'autres matières.
 
 Ces bibliothèques sont développées sur ce [dépot github](https://github.com/cspaier/pydiderotlibs) et documentées chez [ici](https://pydiderotlibs.readthedocs.io/).  
 
