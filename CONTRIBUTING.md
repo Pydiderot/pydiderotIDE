@@ -8,6 +8,12 @@ Toute participation est la bienvenue tant sur le code que le coté pédagogique 
 
 Si vous considérez participer nous vous en remercions et fournissons ce guide pour vous aider.
 
+## Les volets du projet
+
+- [pydiderot]( https://github.com/cspaier/pydiderot)
+- la librairie python [pydiderotlibs](https://github.com/cspaier/pydiderotlibs)
+- un volet pédagogique en développant. On cherche encore le nom...
+
 ## J'ai un problème, une idée, une remarque
 Nous utilisons les issues github pour gérer cela. Vérifiez si votre cas est déjà présent dans la liste d'issues et n'hésitez pas à en ouvrir si besoin.
 
