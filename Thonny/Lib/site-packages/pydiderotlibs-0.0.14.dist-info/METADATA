@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pydiderotlibs
+Version: 0.0.14
+Summary: Librairies utilisées dans l'enseignement de l'informatique
+Home-page: https://github.com/cspaier/pydiderotlibs
+Author: Professeurs de Mathématiques du lycée Denis Diderot (Marseille)
+License: MIT
+Keywords: python,teaching
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+# PyDiderotLibs
+Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, les enseignants de mathématiques du lycée Diderot à Marseille construisent quelques librairies qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
+
+La documentation est disponible sur [readthedocs](https://pydiderotlibs.readthedocs.io).
+
+- [repere](/pydiderotlibs/graphique.py): Permet l'affichage d'un repère du plan interactif (zoom, déplacer).
+- [entree](/pydiderotlibs/entree.py): Fonctions d'entrées utilisateur avec des fenêtres tkinter.
+- [lycee](/pydiderotlibs/lycee.py) : Regroupe les fonctions principales que sont amenés à utiliser les élèves de lycée en mathématiques (toutes filières confondues).
+- [graphique](/pydiderotlibs/graphique.py): Permet l'affichage d'une fenêtre graphique dynamique et une gestion simplifiée des entrées clavier et souris.
+
+

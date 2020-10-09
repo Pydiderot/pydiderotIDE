@@ -6,9 +6,9 @@ Ce projet fournit un environnement de développement Python portable corresponda
 Ce projet est documenté [ici](https://pydiderot.readthedocs.io/).
 
 ## Environnement
-Concrètement, nous fournissons une version portable de l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.2.3) avec [pygame](https://www.pygame.org/) et [pydiderotlibs](https://pydiderotlibs.readthedocs.io/) installés.
+Concrètement, nous fournissons une version portable de l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.2.7) configuré en Français avec [pygame 1.9.6](https://www.pygame.org/) et [pydiderotlibs 0.0.14](https://pydiderotlibs.readthedocs.io/) installés.
 
-Le langage de programmation est python version 3.7.5 avec Tk 8.6.9.
+Le langage de programmation est python version 3.7.7 avec Tk 8.6.9.
 
 
 ![](https://thonny.org/img/screenshot.png)
@@ -29,7 +29,7 @@ Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre
 ## Bibliothèques
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques bibliothèques qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
 
-Ces bibliothèques sont développées sur ce [dépot github](https://github.com/cspaier/pydiderotlibs) et documentées chez [ici](https://pydiderotlibs.readthedocs.io/).  
+Ces bibliothèques sont développées sur ce [dépot github](https://github.com/cspaier/pydiderotlibs) et documentées [ici](https://pydiderotlibs.readthedocs.io/).  
 
 
 ## Participez!
@@ -39,4 +39,3 @@ Ce projet est un travail collaboratif initié par des enseignants du lycée Dide
 ## Les versions
 - La branche **Diderot**: C'est la version téléchargeable et installée sur les machines du lycée Diderot.
 - La branche **dev**: La version en développement. N'hésitez pas à communiquer vos remarques et critiques.
-- La branche **thonny-2.17.0** contient la version 2.17.0 de thonny utilisée au lycée jusqu'à janvier 2019.
