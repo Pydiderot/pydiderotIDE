@@ -48,7 +48,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
     'sphinx.ext.autosummary',
-    'm2r'
+    'm2r2'
 ]
 
 
@@ -144,8 +144,6 @@ latex_elements = {
 latex_documents = [
     (master_doc, 'pydiderot.tex', "Documentation de l'environement python du lycée Diderot",
      'Professeurs du lycée Diderot', 'manual'),
-     ("formation/enseignants", 'formation.tex', 'Formation enseignants',
-      'Professeurs du lycée Diderot', 'manual'),
 ]
 
 
