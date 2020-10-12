@@ -1,9 +1,9 @@
-# Python à Diderot
+# Python à Diderot 
 ## A propos
 Ce projet fournit un environnement de développement Python portable correspondant à celui utilisé par les élèves et les professeurs du lycée Denis Diderot à Marseille.
 
 ## Documentation
-Ce projet est documenté [ici](https://pydiderot.readthedocs.io/).
+[![Documentation Status](https://readthedocs.org/projects/pydiderot/badge/?version=latest)](https://pydiderot.readthedocs.io/?badge=latest) Ce projet est documenté [ici](https://pydiderot.readthedocs.io/).
 
 ## Environnement
 Concrètement, nous fournissons une version portable de l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.2.7) configuré en Français avec [pygame 1.9.6](https://www.pygame.org/) et [pydiderotlibs 0.0.14](https://pydiderotlibs.readthedocs.io/) installés.
