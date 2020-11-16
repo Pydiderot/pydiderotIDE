@@ -17,7 +17,7 @@ Le langage de programmation est python version 3.7.7 avec Tk 8.6.9.
 ## Installation
 
 ### Windows©
-Télécharger le dossier compressé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/dev.zip). Le décompresser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
+Télécharger le dossier compressé en zip avec ce [lien](https://github.com/Pydiderot/pydiderotIDE/archive/dev.zip). Le décompresser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
 
 ### Linux, MacOS
 Si vous êtes sous Linux ou MacOSX, vous avez deux possibilités:
