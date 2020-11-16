@@ -18,20 +18,22 @@ Le langage de programmation est python version 3.7.5 avec Tk 8.6.9.
 ## Installation
 
 ### Windows©
-Télécharger le dossier compressé en zip avec ce [lien](https://github.com/cspaier/thonny/archive/dev.zip). Le décompresser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
+Télécharger le dossier compressé en zip avec ce [lien](https://github.com/Pydiderot/thonny/archive/dev.zip). Le décompresser et double cliquer sur le raccourci `thonny - raccourci`. Cela fonctionne sous Windows© uniquement.
 
 ### Linux, MacOS
-Si vous êtes sous Linux ou MacOSX, il vous faut installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org).
+Si vous êtes sous Linux ou MacOSX, vous avez deux possibilités:
 
-Vous pouvez ensuite télécharger la librairie pydiderolibs du lycée  en suivant les instructions disponibles [ici](https://pydiderotlibs.readthedocs.io/).
+1. Avec pip: `pip install thonny pydiderotlibs`
+
+2. Installer thonny par vos propre moyens en suivant le [site officiel](https://thonny.org) puis télécharger la librairie `pydiderolibs` en suivant les instructions disponibles [ici](https://pydiderotlibs.readthedocs.io/).
 
 
 
 ## Bibliothèques
 Afin de faciliter l'apprentissage de python dans l'enseignement secondaire et notamment en classe de mathématiques de Seconde, nous construisons quelques bibliothèques  [pydiderotlibs](https://pydiderotlibs.readthedocs.io/) qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques. Ces bibliothèques sont bien sûr utilisables dans d'autres niveaux et/ou d'autres matières.
 
-Ces bibliothèques sont développées sur ce [dépot github](https://github.com/cspaier/pydiderotlibs) et documentées chez [ici](https://pydiderotlibs.readthedocs.io/).  
+Ces bibliothèques sont développées sur ce [dépot github](https://github.com/Pydiderot/pydiderotlibs) et documentées chez [ici](https://pydiderotlibs.readthedocs.io/).  
 
 
 ## Participez!
-Ce projet est un travail collaboratif initié par des enseignants du lycée Diderot à Marseille. Nous serions ravis de travailler avec vous et toute aide est la bienvenue. Si vous souhaitez participer, lisez notre [fichier contributing](https://github.com/cspaier/pydiderot/blob/dev/CONTRIBUTING.md).
+Ce projet est un travail collaboratif initié par des enseignants du lycée Diderot à Marseille. Nous serions ravis de travailler avec vous et toute aide est la bienvenue. Si vous souhaitez participer, lisez notre [fichier contributing](https://github.com/Pydiderot/pydiderot/blob/dev/CONTRIBUTING.md).
