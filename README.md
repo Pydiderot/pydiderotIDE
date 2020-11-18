@@ -1,7 +1,7 @@
 # L'environement de développement pydiderotIDE
 ## Documentation [![Documentation Status](https://readthedocs.org/projects/pydiderotide/badge/?version=latest)](https://pydiderotide.readthedocs.io/?badge=latest)
 
- Ce projet est documenté [ici](https://pydiderotides.readthedocs.io/).
+ Ce projet est documenté [ici](https://pydiderotide.readthedocs.io/).
 
 ## A propos
 Ce projet fournit un environnement de développement du langage Python portable adapté à l'apprentissage et l'enseignement de l'algorithmique.
