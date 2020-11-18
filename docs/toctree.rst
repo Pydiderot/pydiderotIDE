@@ -7,10 +7,3 @@ Python à Diderot
     :caption: General
 
     index
-
-
-.. toctree::
-    :caption: Formations
-    :glob:
-
-    formation/*
