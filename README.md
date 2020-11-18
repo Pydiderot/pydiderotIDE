@@ -1,14 +1,18 @@
-# Python à Diderot
-## A propos
-Ce projet fournit un environnement de développement Python portable correspondant à celui utilisé par les élèves et les professeurs du lycée Denis Diderot à Marseille.
 
-## Documentation
-[![Documentation Status](https://readthedocs.org/projects/pydiderot/badge/?version=latest)](https://pydiderot.readthedocs.io/?badge=latest) Ce projet est documenté [ici](https://pydiderot.readthedocs.io/).
+# L'environement de développement pydiderotIDE
+## A propos
+Ce projet fournit un environnement de développement du langage Python portable adapté à l'apprentissage et l'enseignement de l'algorithmique.
+
+Il est en particulier utilisé par les élèves et les professeurs du lycée Denis Diderot à Marseille.
+
+Le projet a démarré en 2018. Il se base sur le programme de mathématiques de [Seconde de 2009](https://cache.media.education.gouv.fr/file/30/52/3/programme_mathematiques_seconde_65523.pdf) et l'enseignement de Python aux élèves de Seconde.
+
+Depuis la rentrée 2019, les programmes du lycée ont changé, Python y est présent de manière officielle. Nous laissons les professeur-e-s de mathématiques ou des autres matières jugés et enrichir le projet.
 
 ## Environnement
-Concrètement, nous fournissons une version portable de l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.2.7) configuré en Français avec [pygame 1.9.6](https://www.pygame.org/) et [pydiderotlibs 0.0.14](https://pydiderotlibs.readthedocs.io/) installés.
+Concrètement, nous fournissons une version portable de l'environnement de développement python  [Thonny](https://thonny.org/) (version 3.2.3) avec deux bibliothèques particulières [pygame](https://www.pygame.org/) et [pydiderotlibs](https://pydiderotlibs.readthedocs.io/) installés.
 
-Le langage de programmation est python version 3.7.7 avec Tk 8.6.9.
+Le langage de programmation est python version 3.7.5 avec Tk 8.6.9.
 
 
 ![](https://thonny.org/img/screenshot.png)
@@ -29,9 +33,9 @@ Si vous êtes sous Linux ou MacOSX, vous avez deux possibilités:
 
 
 ## Bibliothèques
-Afin de faciliter l'apprentissage de python dans l'enseignement secondaire, nous construisons quelques bibliothèques qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques.
+Afin de faciliter l'apprentissage de python dans l'enseignement secondaire et notamment en classe de mathématiques de Seconde, nous construisons quelques bibliothèques  [pydiderotlibs](https://pydiderotlibs.readthedocs.io/) qui ont pour objectif de cacher certaines difficultés liées au langage de programmation afin de pouvoir cibler certains points pédagogiques. Ces bibliothèques sont bien sûr utilisables dans d'autres niveaux et/ou d'autres matières.
 
-Ces bibliothèques sont développées sur ce [dépot github](https://github.com/Pydiderot/pydiderotlibs) et documentées [ici](https://pydiderotlibs.readthedocs.io/).  
+Ces bibliothèques sont développées sur ce [dépot github](https://github.com/Pydiderot/pydiderotlibs) et documentées chez [ici](https://pydiderotlibs.readthedocs.io/).  
 
 
 ## Participez!

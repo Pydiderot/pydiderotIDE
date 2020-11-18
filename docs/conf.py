@@ -12,16 +12,10 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-import zipfile
-
-sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib'))
-sys.path.append(os.path.join(os.path.dirname(__name__), '..', 'Thonny', 'Lib', 'site-packages'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Environnement python du lycée Diderot (13)'
+project = 'PydiderotIDE'
 
 author = ''
 
@@ -115,7 +109,7 @@ html_static_path = ['source/_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'thonnydoc'
+htmlhelp_basename = 'pydiderotIDEdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -142,7 +136,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'pydiderot.tex', "Documentation de l'environement python du lycée Diderot",
+    (master_doc, 'pydiderotIDE.tex', "Documentation de l'environement python du lycée Diderot",
      'Professeurs du lycée Diderot', 'manual'),
 ]
 
@@ -152,7 +146,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'thonny', 'thonny Documentation',
+    (master_doc, 'pydiderotIDE', 'pydiderotIDE Documentation',
      [author], 1)
 ]
 
@@ -163,8 +157,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'pydiderot', 'pydiderot Documentation',
-     author, 'pydiderot', 'Environement python du lycée diderot',
+    (master_doc, 'pydiderotIDE', 'pydiderotIDE Documentation',
+     author, 'pydiderotIDE', 'Environement python du lycée diderot',
      'Miscellaneous'),
 ]
 
