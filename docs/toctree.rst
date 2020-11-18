@@ -1,8 +1,7 @@
-Python à Diderot
-================
+L'environement de développement pydiderotIDE
+============================================
 
 .. toctree::
     :maxdepth: 4
-    :caption: General
 
     index
