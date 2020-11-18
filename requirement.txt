@@ -1,2 +1,3 @@
 m2r2
 pygame
+Sphinx==3.2.1
