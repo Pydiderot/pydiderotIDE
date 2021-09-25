@@ -1,4 +1,4 @@
-# L'environement de développement pydiderotIDE
+# L'environnement de développement pydiderotIDE
 ## Documentation [![Documentation Status](https://readthedocs.org/projects/pydiderotide/badge/?version=latest)](https://pydiderotide.readthedocs.io/?badge=latest)
 
  Ce projet est documenté [ici](https://pydiderotide.readthedocs.io/).
